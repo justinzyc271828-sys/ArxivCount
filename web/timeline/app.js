@@ -96,21 +96,28 @@
 
   function renderFocus() {
     const e = nav[idx] || {};
-    const card = $("focusCard");
-    card.style.animation = "none";
-    void card.offsetWidth;
-    card.style.animation = "";
+    const cardEl = $("focusCard");
+    cardEl.style.animation = "none";
+    void cardEl.offsetWidth;
+    cardEl.style.animation = "";
 
     $("focusIcon").innerHTML = iconFor(e);
     $("focusKind").textContent = kindLabel(e);
     const tr = trackLabel(e);
     const trackEl = $("focusTrack");
+    const banner = $("keystoneBanner");
+    const card = $("focusCard");
     if (e.is_keystone) {
       trackEl.textContent = `Keystone #${e.keystone_rank || "—"}`;
       trackEl.className = "chip chip-keystone";
+      banner.hidden = false;
+      $("keystoneBannerText").textContent = `Keystone #${e.keystone_rank} of 10`;
+      card.classList.add("is-keystone");
     } else {
       trackEl.textContent = tr.text;
       trackEl.className = "chip chip-track " + (tr.cls || "");
+      banner.hidden = true;
+      card.classList.remove("is-keystone");
     }
     $("focusDate").textContent = fmtDate(e.date);
     $("focusTitle").textContent = e.label || e.title || e.id || "—";
@@ -131,6 +138,12 @@
     $("focusTags").innerHTML = tags
       .map(([cls, t]) => `<span class="tag ${cls}">${t}</span>`)
       .join("");
+
+    // sync keystone button strip
+    document.querySelectorAll(".ks-btn").forEach((btn) => {
+      const bi = Number(btn.dataset.i);
+      btn.classList.toggle("active", bi === idx);
+    });
 
     const link = $("focusLink");
     const pdf = $("focusPdf");
@@ -162,6 +175,27 @@
     }
   }
 
+  function renderKeystoneStrip() {
+    const box = $("keystoneButtons");
+    if (!box) return;
+    const items = nav
+      .map((e, i) => ({ e, i }))
+      .filter((x) => x.e.is_keystone)
+      .sort((a, b) => (a.e.keystone_rank || 99) - (b.e.keystone_rank || 99));
+    box.innerHTML = items
+      .map(({ e, i }) => {
+        const lab = (e.label || "").toString().replace(/"/g, "&quot;");
+        return `<button type="button" class="ks-btn${i === idx ? " active" : ""}" data-i="${i}" title="#${e.keystone_rank} ${lab}">${e.keystone_rank}</button>`;
+      })
+      .join("");
+    box.querySelectorAll(".ks-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        idx = Number(btn.dataset.i);
+        renderFocus();
+      });
+    });
+  }
+
   function renderScrub() {
     const track = $("scrubTrack");
     track.innerHTML = nav
@@ -173,7 +207,11 @@
         if (i === idx) cls.push("active");
         const tip = (e.label || e.id || "").toString().replace(/"/g, "&quot;");
         const star = e.is_keystone ? `★#${e.keystone_rank} · ` : "";
+        const num = e.is_keystone
+          ? `<span class="ks-num">${e.keystone_rank}</span>`
+          : "";
         return `<button type="button" class="${cls.join(" ")}" data-i="${i}" aria-label="${tip}" title="${star}${tip}">
+          ${num}
           <span class="tip">${star}${fmtDate(e.date)} · ${tip.length > 32 ? tip.slice(0, 30) + "…" : tip}</span>
         </button>`;
       })
@@ -333,6 +371,7 @@
     { passive: true }
   );
 
+  renderKeystoneStrip();
   renderScrub();
   renderFocus();
   renderMetrics();
