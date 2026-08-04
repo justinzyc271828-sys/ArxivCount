@@ -1,0 +1,44 @@
+# Ten keystone moments to highlight on the public timeline rail.
+# Match by canon milestone id OR arxiv_id.
+
+version: 1
+keystones:
+  - id: chatgpt
+    rank: 1
+    reason: "Public LLM entry point for mass math experiments."
+
+  - id: alphageometry
+    rank: 2
+    reason: "Olympiad-level neuro-symbolic milestone."
+
+  - id: alphaproof
+    rank: 3
+    reason: "Formal IMO-scale proving; Lean as backbone."
+
+  - id: lean_ai_wave
+    rank: 4
+    reason: "Research-adjacent autoformalization wave marker."
+
+  - id: "2601.07421"
+    rank: 5
+    reason: "Early high-visibility Erdős-problem AI resolution writeup."
+
+  - id: erdos_1196
+    rank: 6
+    reason: "GPT-assisted Erdős #1196; open-problem wave anchor."
+
+  - id: unit_distance
+    rank: 7
+    reason: "Unit-distance conjecture disproof; major public milestone."
+
+  - id: "2605.00301"
+    rank: 8
+    reason: "arXiv writeup of multiple Erdős-related AI-assisted results."
+
+  - id: "2606.16738"
+    rank: 9
+    reason: "AI disproof of Elekes–Rónyai-type expander conjecture."
+
+  - id: "2607.20525"
+    rank: 10
+    reason: "Autonomous-style disproof of sum-product conjecture over R."

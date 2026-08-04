@@ -69,6 +69,27 @@
     return { text: "Other", cls: "" };
   }
 
+  function jumpKeystone(dir) {
+    const ranks = nav
+      .map((e, i) => ({ i, r: e.keystone_rank, k: e.is_keystone }))
+      .filter((x) => x.k);
+    if (!ranks.length) return;
+    ranks.sort((a, b) => (a.r || 99) - (b.r || 99));
+    const pos = ranks.findIndex((x) => x.i === idx);
+    let next;
+    if (pos < 0) {
+      // jump to nearest keystone by index
+      next = dir > 0
+        ? ranks.find((x) => x.i > idx) || ranks[0]
+        : [...ranks].reverse().find((x) => x.i < idx) || ranks[ranks.length - 1];
+    } else {
+      const j = (pos + dir + ranks.length) % ranks.length;
+      next = ranks[j];
+    }
+    idx = next.i;
+    renderFocus();
+  }
+
   function renderFocus() {
     const e = nav[idx] || {};
     const card = $("focusCard");
@@ -80,14 +101,22 @@
     $("focusKind").textContent = kindLabel(e);
     const tr = trackLabel(e);
     const trackEl = $("focusTrack");
-    trackEl.textContent = tr.text;
-    trackEl.className = "chip chip-track " + (tr.cls || "");
+    if (e.is_keystone) {
+      trackEl.textContent = `Keystone #${e.keystone_rank || "—"}`;
+      trackEl.className = "chip chip-keystone";
+    } else {
+      trackEl.textContent = tr.text;
+      trackEl.className = "chip chip-track " + (tr.cls || "");
+    }
     $("focusDate").textContent = fmtDate(e.date);
     $("focusTitle").textContent = e.label || e.title || e.id || "—";
-    $("focusNote").textContent =
-      e.note || e.open_problem_name || e.ai_role_summary || "No summary available.";
+    const noteBits = [];
+    if (e.is_keystone && e.keystone_reason) noteBits.push(e.keystone_reason);
+    noteBits.push(e.note || e.open_problem_name || e.ai_role_summary || "No summary available.");
+    $("focusNote").textContent = noteBits.join(" — ");
 
     const tags = [];
+    if (e.is_keystone) tags.push(["hot", `★ keystone #${e.keystone_rank}`]);
     if (e.type === "canon_milestone") tags.push(["", "canon"]);
     if (e.is_core_contribution) tags.push(["hot", "core contribution"]);
     if (e.is_rigorous_process) tags.push(["ok", "rigorous process"]);
@@ -134,12 +163,14 @@
     track.innerHTML = nav
       .map((e, i) => {
         const cls = ["tick"];
-        if (e.type === "canon_milestone") cls.push("canon");
-        if (e.is_core_contribution || e.contribution_tier === "C4") cls.push("c4");
+        if (e.is_keystone) cls.push("keystone");
+        else if (e.type === "canon_milestone") cls.push("canon");
+        else if (e.is_core_contribution || e.contribution_tier === "C4") cls.push("c4");
         if (i === idx) cls.push("active");
         const tip = (e.label || e.id || "").toString().replace(/"/g, "&quot;");
-        return `<button type="button" class="${cls.join(" ")}" data-i="${i}" aria-label="${tip}">
-          <span class="tip">${fmtDate(e.date)} · ${tip.length > 36 ? tip.slice(0, 34) + "…" : tip}</span>
+        const star = e.is_keystone ? `★#${e.keystone_rank} · ` : "";
+        return `<button type="button" class="${cls.join(" ")}" data-i="${i}" aria-label="${tip}" title="${star}${tip}">
+          <span class="tip">${star}${fmtDate(e.date)} · ${tip.length > 32 ? tip.slice(0, 30) + "…" : tip}</span>
         </button>`;
       })
       .join("");
@@ -156,15 +187,20 @@
     const c = data.contribution || {};
     const p = data.penetration || {};
     const latest = p.latest || {};
+    const ks = (data.keystones && data.keystones.count) || nav.filter((e) => e.is_keystone).length;
     const items = [
       { k: "Core contribution", v: d.core_n ?? c.strict_n ?? "—", h: "material math claims" },
       { k: "Rigorous process", v: d.rigorous_n ?? "—", h: "formal / verification steps" },
+      {
+        k: "Keystones",
+        v: ks,
+        h: "gold ticks · Shift+←/→",
+      },
       {
         k: "Core / 10k math",
         v: latest.strict_per_10k != null ? Number(latest.strict_per_10k).toFixed(1) : "—",
         h: latest.year ? `${latest.year} · partial if 2026` : "denominator",
       },
-      { k: "Timeline events", v: nav.length, h: "← → to browse" },
     ];
     $("metricRow").innerHTML = items
       .map(
@@ -262,8 +298,16 @@
   $("btnPrev").addEventListener("click", () => go(-1));
   $("btnNext").addEventListener("click", () => go(1));
   window.addEventListener("keydown", (ev) => {
-    if (ev.key === "ArrowLeft") go(-1);
-    if (ev.key === "ArrowRight") go(1);
+    if (ev.key === "ArrowLeft") {
+      ev.preventDefault();
+      if (ev.shiftKey) jumpKeystone(-1);
+      else go(-1);
+    }
+    if (ev.key === "ArrowRight") {
+      ev.preventDefault();
+      if (ev.shiftKey) jumpKeystone(1);
+      else go(1);
+    }
   });
 
   let tx = null;

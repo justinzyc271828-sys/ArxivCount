@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:28:40+00:00",
+  "generated_at": "2026-08-04T14:33:28+00:00",
   "project": {
     "name": "ArxivCount",
     "title": "AI-Assisted Math Proofs on arXiv",
@@ -349,7 +349,10 @@
       "pdf_url": "https://arxiv.org/pdf/2206.14858.pdf",
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2022-11-30",
@@ -365,7 +368,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": false,
-      "public_track": "other"
+      "public_track": "other",
+      "is_keystone": true,
+      "keystone_rank": 1,
+      "keystone_reason": "Public LLM entry point for mass math experiments."
     },
     {
       "date": "2023-03-14",
@@ -381,7 +387,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2024-01-17",
@@ -397,7 +406,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 2,
+      "keystone_reason": "Olympiad-level neuro-symbolic milestone."
     },
     {
       "date": "2024-07-25",
@@ -413,7 +425,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 3,
+      "keystone_reason": "Formal IMO-scale proving; Lean as backbone."
     },
     {
       "date": "2025-01-01",
@@ -429,7 +444,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 4,
+      "keystone_reason": "Research-adjacent autoformalization wave marker."
     },
     {
       "date": "2025-01-29",
@@ -453,7 +471,10 @@
       "pdf_url": "https://arxiv.org/pdf/2501.17725.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-02-24",
@@ -478,7 +499,10 @@
       "pdf_url": "https://arxiv.org/pdf/2502.17533.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-05-22",
@@ -503,7 +527,10 @@
       "pdf_url": "https://arxiv.org/pdf/2505.16105.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-05-29",
@@ -527,7 +554,10 @@
       "pdf_url": "https://arxiv.org/pdf/2505.23881.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-06-20",
@@ -552,7 +582,10 @@
       "pdf_url": "https://arxiv.org/pdf/2506.16750.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-01",
@@ -577,7 +610,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.01735.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-03",
@@ -601,7 +637,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.03065.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-14",
@@ -627,7 +666,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.11447.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-22",
@@ -653,7 +695,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.18057.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-23",
@@ -679,7 +724,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.19162.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-24",
@@ -704,7 +752,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.19854.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-24",
@@ -729,7 +780,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.20539.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-09-30",
@@ -753,7 +807,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.26138.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-04",
@@ -779,7 +836,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.03650.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-22",
@@ -804,7 +864,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.19804.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-22",
@@ -830,7 +893,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.20013.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-23",
@@ -856,7 +922,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.20728.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-27",
@@ -881,7 +950,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.23513.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-28",
@@ -907,7 +979,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.24013.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-30",
@@ -932,7 +1007,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.26647.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-11-03",
@@ -958,7 +1036,10 @@
       "pdf_url": "https://arxiv.org/pdf/2511.02864.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-11-16",
@@ -982,7 +1063,10 @@
       "pdf_url": "https://arxiv.org/pdf/2511.12665.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-11-24",
@@ -1008,7 +1092,10 @@
       "pdf_url": "https://arxiv.org/pdf/2511.18828.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-11-25",
@@ -1033,7 +1120,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.03057.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-12-10",
@@ -1059,7 +1149,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.09443.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-12-11",
@@ -1083,7 +1176,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.10220.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-12-16",
@@ -1108,7 +1204,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.14575.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-12-29",
@@ -1133,7 +1232,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.23195.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-01",
@@ -1149,7 +1251,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-12",
@@ -1174,7 +1279,10 @@
       "pdf_url": "https://arxiv.org/pdf/2601.07421.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": true,
+      "keystone_rank": 5,
+      "keystone_reason": "Early high-visibility Erdős-problem AI resolution writeup."
     },
     {
       "date": "2026-01-25",
@@ -1200,7 +1308,10 @@
       "pdf_url": "https://arxiv.org/pdf/2601.18005.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-29",
@@ -1226,7 +1337,10 @@
       "pdf_url": "https://arxiv.org/pdf/2601.22401.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-02-06",
@@ -1251,7 +1365,10 @@
       "pdf_url": "https://arxiv.org/pdf/2602.16807.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-02-10",
@@ -1277,7 +1394,10 @@
       "pdf_url": "https://arxiv.org/pdf/2602.10233.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-02-13",
@@ -1302,7 +1422,10 @@
       "pdf_url": "https://arxiv.org/pdf/2602.13519.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-02-14",
@@ -1328,7 +1451,10 @@
       "pdf_url": "https://arxiv.org/pdf/2602.13695.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-05",
@@ -1354,7 +1480,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.05696.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-09",
@@ -1380,7 +1509,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.08322.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-10",
@@ -1404,7 +1536,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.09680.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-10",
@@ -1429,7 +1564,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.09172.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-10",
@@ -1455,7 +1593,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.11066.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-16",
@@ -1480,7 +1621,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.15929.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-16",
@@ -1506,7 +1650,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.15770.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-19",
@@ -1531,7 +1678,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.19215.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-25",
@@ -1557,7 +1707,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.24330.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-30",
@@ -1582,7 +1735,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.28636.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-31",
@@ -1607,7 +1763,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.00260.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-13",
@@ -1624,7 +1783,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 6,
+      "keystone_reason": "GPT-assisted Erdős #1196; open-problem wave anchor."
     },
     {
       "date": "2026-04-23",
@@ -1649,7 +1811,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.21187.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-25",
@@ -1675,7 +1840,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.23468.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-30",
@@ -1701,7 +1869,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.27989.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-01",
@@ -1727,7 +1898,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": true,
+      "keystone_rank": 8,
+      "keystone_reason": "arXiv writeup of multiple Erdős-related AI-assisted results."
     },
     {
       "date": "2026-05-01",
@@ -1752,7 +1926,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.01120.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-03",
@@ -1777,7 +1954,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.02023.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-04",
@@ -1803,7 +1983,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.02994.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-06",
@@ -1827,7 +2010,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.05192.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-06",
@@ -1851,7 +2037,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.04810.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-08",
@@ -1877,7 +2066,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.08033.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-12",
@@ -1902,7 +2094,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.11656.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-19",
@@ -1927,7 +2122,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.19979.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-19",
@@ -1952,7 +2150,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20527.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -1968,7 +2169,10 @@
       "highlight": true,
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 7,
+      "keystone_reason": "Unit-distance conjecture disproof; major public milestone."
     },
     {
       "date": "2026-05-20",
@@ -1993,7 +2197,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20623.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -2017,7 +2224,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20585.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -2041,7 +2251,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20594.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-21",
@@ -2065,7 +2278,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.22250.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-21",
@@ -2089,7 +2305,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.22052.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-22",
@@ -2113,7 +2332,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.24160.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-22",
@@ -2139,7 +2361,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.24130.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-24",
@@ -2164,7 +2389,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.25271.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-26",
@@ -2188,7 +2416,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.27563.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-27",
@@ -2213,7 +2444,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.29151.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-01",
@@ -2237,7 +2471,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.01633.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-03",
@@ -2261,7 +2498,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05117.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-03",
@@ -2285,7 +2525,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05438.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-04",
@@ -2310,7 +2553,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05629.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-08",
@@ -2335,7 +2581,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.22580.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-08",
@@ -2360,7 +2609,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.09674.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-09",
@@ -2386,7 +2638,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.10806.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-10",
@@ -2410,7 +2665,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.11773.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-11",
@@ -2436,7 +2694,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.13925.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-13",
@@ -2461,7 +2722,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.15159.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-14",
@@ -2486,7 +2750,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.15860.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-15",
@@ -2512,7 +2779,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.16738.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 9,
+      "keystone_reason": "AI disproof of Elekes–Rónyai-type expander conjecture."
     },
     {
       "date": "2026-06-16",
@@ -2538,7 +2808,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.22620.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-16",
@@ -2562,7 +2835,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.18110.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-18",
@@ -2588,7 +2864,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.20439.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-19",
@@ -2613,7 +2892,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.21583.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-21",
@@ -2639,7 +2921,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.22636.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-21",
@@ -2664,7 +2949,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.22548.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-22",
@@ -2690,7 +2978,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.23821.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-28",
@@ -2716,7 +3007,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.29593.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-29",
@@ -2742,7 +3036,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.29687.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-01",
@@ -2767,7 +3064,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.00708.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-02",
@@ -2792,7 +3092,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.01924.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-03",
@@ -2817,7 +3120,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.03639.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-06",
@@ -2842,7 +3148,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.04891.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-07",
@@ -2867,7 +3176,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.06693.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-09",
@@ -2893,7 +3205,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.20525.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 10,
+      "keystone_reason": "Autonomous-style disproof of sum-product conjecture over R."
     },
     {
       "date": "2026-07-09",
@@ -2918,7 +3233,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.08931.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-13",
@@ -2942,7 +3260,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.12208.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-13",
@@ -2967,7 +3288,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.11376.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-15",
@@ -2993,7 +3317,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.14238.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-16",
@@ -3017,7 +3344,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.15034.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-20",
@@ -3041,7 +3371,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.18174.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -3065,7 +3398,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.19184.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -3089,7 +3425,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.19513.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -3113,7 +3452,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.18619.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-23",
@@ -3138,7 +3480,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.21517.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-23",
@@ -3163,7 +3508,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.21508.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-25",
@@ -3189,7 +3537,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23307.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-26",
@@ -3214,7 +3565,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23828.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-26",
@@ -3239,7 +3593,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23836.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -3263,7 +3620,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24528.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -3289,7 +3649,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24483.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -3314,7 +3677,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23980.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -3338,7 +3704,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26396.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -3363,7 +3732,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26419.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -3387,7 +3759,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26989.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-01",
@@ -3412,7 +3787,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.00377.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-02",
@@ -3438,7 +3816,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01040.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-02",
@@ -3463,7 +3844,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01156.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -3489,7 +3873,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.02327.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -3514,7 +3901,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.02537.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -3540,7 +3930,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01673.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     }
   ],
   "navigable": [
@@ -3559,7 +3952,10 @@
       "pdf_url": "https://arxiv.org/pdf/2206.14858.pdf",
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2022-11-30",
@@ -3575,7 +3971,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": false,
-      "public_track": "other"
+      "public_track": "other",
+      "is_keystone": true,
+      "keystone_rank": 1,
+      "keystone_reason": "Public LLM entry point for mass math experiments."
     },
     {
       "date": "2023-03-14",
@@ -3591,7 +3990,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2024-01-17",
@@ -3607,7 +4009,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 2,
+      "keystone_reason": "Olympiad-level neuro-symbolic milestone."
     },
     {
       "date": "2024-07-25",
@@ -3623,7 +4028,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 3,
+      "keystone_reason": "Formal IMO-scale proving; Lean as backbone."
     },
     {
       "date": "2025-01-01",
@@ -3639,7 +4047,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 4,
+      "keystone_reason": "Research-adjacent autoformalization wave marker."
     },
     {
       "date": "2025-09-22",
@@ -3665,7 +4076,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.18057.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-22",
@@ -3691,7 +4105,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.20013.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-27",
@@ -3716,7 +4133,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.23513.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-11-24",
@@ -3742,7 +4162,10 @@
       "pdf_url": "https://arxiv.org/pdf/2511.18828.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-12-11",
@@ -3766,7 +4189,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.10220.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-01",
@@ -3782,7 +4208,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-12",
@@ -3807,7 +4236,10 @@
       "pdf_url": "https://arxiv.org/pdf/2601.07421.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": true,
+      "keystone_rank": 5,
+      "keystone_reason": "Early high-visibility Erdős-problem AI resolution writeup."
     },
     {
       "date": "2026-02-06",
@@ -3832,7 +4264,10 @@
       "pdf_url": "https://arxiv.org/pdf/2602.16807.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-10",
@@ -3856,7 +4291,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.09680.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-19",
@@ -3881,7 +4319,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.19215.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-30",
@@ -3906,7 +4347,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.28636.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-13",
@@ -3923,7 +4367,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 6,
+      "keystone_reason": "GPT-assisted Erdős #1196; open-problem wave anchor."
     },
     {
       "date": "2026-04-23",
@@ -3948,7 +4395,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.21187.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-25",
@@ -3974,7 +4424,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.23468.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-01",
@@ -4000,7 +4453,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": true,
+      "keystone_rank": 8,
+      "keystone_reason": "arXiv writeup of multiple Erdős-related AI-assisted results."
     },
     {
       "date": "2026-05-08",
@@ -4026,7 +4482,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.08033.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-12",
@@ -4051,7 +4510,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.11656.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-19",
@@ -4076,7 +4538,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.19979.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-19",
@@ -4101,7 +4566,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20527.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -4117,7 +4585,10 @@
       "highlight": true,
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 7,
+      "keystone_reason": "Unit-distance conjecture disproof; major public milestone."
     },
     {
       "date": "2026-05-20",
@@ -4142,7 +4613,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20623.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -4166,7 +4640,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20585.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -4190,7 +4667,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20594.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-21",
@@ -4214,7 +4694,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.22250.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-21",
@@ -4238,7 +4721,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.22052.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-22",
@@ -4262,7 +4748,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.24160.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-26",
@@ -4286,7 +4775,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.27563.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-27",
@@ -4311,7 +4803,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.29151.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-03",
@@ -4335,7 +4830,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05117.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-03",
@@ -4359,7 +4857,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05438.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-08",
@@ -4384,7 +4885,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.22580.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-10",
@@ -4408,7 +4912,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.11773.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-13",
@@ -4433,7 +4940,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.15159.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-15",
@@ -4459,7 +4969,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.16738.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 9,
+      "keystone_reason": "AI disproof of Elekes–Rónyai-type expander conjecture."
     },
     {
       "date": "2026-06-16",
@@ -4485,7 +4998,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.22620.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-21",
@@ -4511,7 +5027,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.22636.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-21",
@@ -4536,7 +5055,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.22548.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-28",
@@ -4562,7 +5084,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.29593.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-29",
@@ -4588,7 +5113,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.29687.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-01",
@@ -4613,7 +5141,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.00708.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-02",
@@ -4638,7 +5169,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.01924.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-03",
@@ -4663,7 +5197,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.03639.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-06",
@@ -4688,7 +5225,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.04891.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-07",
@@ -4713,7 +5253,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.06693.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-09",
@@ -4739,7 +5282,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.20525.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 10,
+      "keystone_reason": "Autonomous-style disproof of sum-product conjecture over R."
     },
     {
       "date": "2026-07-13",
@@ -4763,7 +5309,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.12208.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-13",
@@ -4788,7 +5337,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.11376.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-15",
@@ -4814,7 +5366,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.14238.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -4838,7 +5393,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.19184.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -4862,7 +5420,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.19513.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -4886,7 +5447,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.18619.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-23",
@@ -4911,7 +5475,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.21508.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-25",
@@ -4937,7 +5504,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23307.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-26",
@@ -4962,7 +5532,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23828.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -4986,7 +5559,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24528.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -5012,7 +5588,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24483.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -5037,7 +5616,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23980.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -5061,7 +5643,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26396.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -5086,7 +5671,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26419.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-01",
@@ -5111,7 +5699,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.00377.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-02",
@@ -5137,7 +5728,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01040.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -5163,7 +5757,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.02327.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -5188,7 +5785,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.02537.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -5214,7 +5814,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01673.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     }
   ],
   "highlights": [
@@ -5233,7 +5836,10 @@
       "pdf_url": "https://arxiv.org/pdf/2206.14858.pdf",
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2022-11-30",
@@ -5249,7 +5855,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": false,
-      "public_track": "other"
+      "public_track": "other",
+      "is_keystone": true,
+      "keystone_rank": 1,
+      "keystone_reason": "Public LLM entry point for mass math experiments."
     },
     {
       "date": "2023-03-14",
@@ -5265,7 +5874,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2024-01-17",
@@ -5281,7 +5893,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 2,
+      "keystone_reason": "Olympiad-level neuro-symbolic milestone."
     },
     {
       "date": "2024-07-25",
@@ -5297,7 +5912,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 3,
+      "keystone_reason": "Formal IMO-scale proving; Lean as backbone."
     },
     {
       "date": "2025-01-01",
@@ -5313,7 +5931,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": true,
+      "keystone_rank": 4,
+      "keystone_reason": "Research-adjacent autoformalization wave marker."
     },
     {
       "date": "2025-09-22",
@@ -5339,7 +5960,10 @@
       "pdf_url": "https://arxiv.org/pdf/2509.18057.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-22",
@@ -5365,7 +5989,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.20013.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-10-27",
@@ -5390,7 +6017,10 @@
       "pdf_url": "https://arxiv.org/pdf/2510.23513.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-11-24",
@@ -5416,7 +6046,10 @@
       "pdf_url": "https://arxiv.org/pdf/2511.18828.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2025-12-11",
@@ -5440,7 +6073,10 @@
       "pdf_url": "https://arxiv.org/pdf/2512.10220.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-01",
@@ -5456,7 +6092,10 @@
       "highlight": true,
       "is_core_contribution": false,
       "is_rigorous_process": true,
-      "public_track": "rigorous"
+      "public_track": "rigorous",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-01-12",
@@ -5481,7 +6120,10 @@
       "pdf_url": "https://arxiv.org/pdf/2601.07421.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": true,
+      "keystone_rank": 5,
+      "keystone_reason": "Early high-visibility Erdős-problem AI resolution writeup."
     },
     {
       "date": "2026-02-06",
@@ -5506,7 +6148,10 @@
       "pdf_url": "https://arxiv.org/pdf/2602.16807.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-10",
@@ -5530,7 +6175,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.09680.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-19",
@@ -5555,7 +6203,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.19215.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-03-30",
@@ -5580,7 +6231,10 @@
       "pdf_url": "https://arxiv.org/pdf/2603.28636.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-13",
@@ -5597,7 +6251,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 6,
+      "keystone_reason": "GPT-assisted Erdős #1196; open-problem wave anchor."
     },
     {
       "date": "2026-04-23",
@@ -5622,7 +6279,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.21187.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-04-25",
@@ -5648,7 +6308,10 @@
       "pdf_url": "https://arxiv.org/pdf/2604.23468.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-01",
@@ -5674,7 +6337,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": true,
+      "keystone_rank": 8,
+      "keystone_reason": "arXiv writeup of multiple Erdős-related AI-assisted results."
     },
     {
       "date": "2026-05-08",
@@ -5700,7 +6366,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.08033.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-12",
@@ -5725,7 +6394,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.11656.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-19",
@@ -5750,7 +6422,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.19979.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-19",
@@ -5775,7 +6450,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20527.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -5791,7 +6469,10 @@
       "highlight": true,
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 7,
+      "keystone_reason": "Unit-distance conjecture disproof; major public milestone."
     },
     {
       "date": "2026-05-20",
@@ -5816,7 +6497,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20623.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -5840,7 +6524,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20585.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-20",
@@ -5864,7 +6551,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.20594.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-21",
@@ -5888,7 +6578,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.22250.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-21",
@@ -5912,7 +6605,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.22052.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-22",
@@ -5936,7 +6632,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.24160.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-26",
@@ -5960,7 +6659,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.27563.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-05-27",
@@ -5985,7 +6687,10 @@
       "pdf_url": "https://arxiv.org/pdf/2605.29151.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-03",
@@ -6009,7 +6714,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05117.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-03",
@@ -6033,7 +6741,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.05438.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-08",
@@ -6058,7 +6769,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.22580.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-10",
@@ -6082,7 +6796,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.11773.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-13",
@@ -6107,7 +6824,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.15159.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-15",
@@ -6133,7 +6853,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.16738.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 9,
+      "keystone_reason": "AI disproof of Elekes–Rónyai-type expander conjecture."
     },
     {
       "date": "2026-06-16",
@@ -6159,7 +6882,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.22620.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-21",
@@ -6185,7 +6911,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.22636.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-21",
@@ -6210,7 +6939,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.22548.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-28",
@@ -6236,7 +6968,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.29593.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-06-29",
@@ -6262,7 +6997,10 @@
       "pdf_url": "https://arxiv.org/pdf/2606.29687.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-01",
@@ -6287,7 +7025,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.00708.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-02",
@@ -6312,7 +7053,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.01924.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-03",
@@ -6337,7 +7081,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.03639.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-06",
@@ -6362,7 +7109,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.04891.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-07",
@@ -6387,7 +7137,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.06693.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-09",
@@ -6413,7 +7166,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.20525.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": true,
+      "keystone_rank": 10,
+      "keystone_reason": "Autonomous-style disproof of sum-product conjecture over R."
     },
     {
       "date": "2026-07-13",
@@ -6437,7 +7193,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.12208.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-13",
@@ -6462,7 +7221,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.11376.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-15",
@@ -6488,7 +7250,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.14238.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -6512,7 +7277,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.19184.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -6536,7 +7304,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.19513.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-21",
@@ -6560,7 +7331,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.18619.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-23",
@@ -6585,7 +7359,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.21508.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-25",
@@ -6611,7 +7388,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23307.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-26",
@@ -6636,7 +7416,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23828.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -6660,7 +7443,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24528.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -6686,7 +7472,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.24483.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-27",
@@ -6711,7 +7500,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.23980.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": true,
-      "public_track": "both"
+      "public_track": "both",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -6735,7 +7527,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26396.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-07-29",
@@ -6760,7 +7555,10 @@
       "pdf_url": "https://arxiv.org/pdf/2607.26419.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-01",
@@ -6785,7 +7583,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.00377.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-02",
@@ -6811,7 +7612,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01040.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -6837,7 +7641,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.02327.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -6862,7 +7669,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.02537.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     },
     {
       "date": "2026-08-03",
@@ -6888,7 +7698,10 @@
       "pdf_url": "https://arxiv.org/pdf/2608.01673.pdf",
       "is_core_contribution": true,
       "is_rigorous_process": false,
-      "public_track": "core"
+      "public_track": "core",
+      "is_keystone": false,
+      "keystone_rank": null,
+      "keystone_reason": null
     }
   ],
   "dual": {
@@ -7167,9 +7980,95 @@
     "canon_total": 9,
     "note": "All paper abs links normalized to https://arxiv.org/abs/{id}. Verified offline before release."
   },
+  "keystones": {
+    "count": 10,
+    "items": [
+      {
+        "rank": 1,
+        "id": "chatgpt",
+        "label": "ChatGPT public launch",
+        "date": "2022-11-30",
+        "url": "https://openai.com/blog/chatgpt",
+        "reason": "Public LLM entry point for mass math experiments."
+      },
+      {
+        "rank": 2,
+        "id": "alphageometry",
+        "label": "AlphaGeometry",
+        "date": "2024-01-17",
+        "url": "https://deepmind.google/discover/blog/alphageometry/",
+        "reason": "Olympiad-level neuro-symbolic milestone."
+      },
+      {
+        "rank": 3,
+        "id": "alphaproof",
+        "label": "AlphaProof / IMO-level formal proving",
+        "date": "2024-07-25",
+        "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
+        "reason": "Formal IMO-scale proving; Lean as backbone."
+      },
+      {
+        "rank": 4,
+        "id": "lean_ai_wave",
+        "label": "Lean + LLM research formalization wave",
+        "date": "2025-01-01",
+        "url": "https://lean-lang.org/",
+        "reason": "Research-adjacent autoformalization wave marker."
+      },
+      {
+        "rank": 5,
+        "id": "2601.07421",
+        "label": "First AI-autonomous resolution of an Erdős problem",
+        "date": "2026-01-12",
+        "url": "https://arxiv.org/abs/2601.07421",
+        "reason": "Early high-visibility Erdős-problem AI resolution writeup."
+      },
+      {
+        "rank": 6,
+        "id": "erdos_1196",
+        "label": "Erdős #1196 (GPT-assisted, reported)",
+        "date": "2026-04-13",
+        "url": "https://arxiv.org/abs/2605.00301",
+        "reason": "GPT-assisted Erdős #1196; open-problem wave anchor."
+      },
+      {
+        "rank": 7,
+        "id": "unit_distance",
+        "label": "Unit distance conjecture disproof (OpenAI model)",
+        "date": "2026-05-20",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+        "reason": "Unit-distance conjecture disproof; major public milestone."
+      },
+      {
+        "rank": 8,
+        "id": "2605.00301",
+        "label": "AI-assisted resolution of multiple Erdős conjectures",
+        "date": "2026-05-01",
+        "url": "https://arxiv.org/abs/2605.00301",
+        "reason": "arXiv writeup of multiple Erdős-related AI-assisted results."
+      },
+      {
+        "rank": 9,
+        "id": "2606.16738",
+        "label": "AI disproof of Elekes–Rónyai conjecture",
+        "date": "2026-06-15",
+        "url": "https://arxiv.org/abs/2606.16738",
+        "reason": "AI disproof of Elekes–Rónyai-type expander conjecture."
+      },
+      {
+        "rank": 10,
+        "id": "2607.20525",
+        "label": "Autonomous disproof of sum-product conjecture over R",
+        "date": "2026-07-09",
+        "url": "https://arxiv.org/abs/2607.20525",
+        "reason": "Autonomous-style disproof of sum-product conjecture over R."
+      }
+    ]
+  },
   "notes": {
     "core": "Core contribution (≈ C3/C4 material claims)",
     "rigorous": "Rigorous process (formalization / machine-checked / verification)",
-    "denominator": "arXiv cat:math* calendar-year totals via API"
+    "denominator": "arXiv cat:math* calendar-year totals via API",
+    "keystone": "Ten curated highlights on the rail (larger gold ticks)"
   }
 }

@@ -10,6 +10,8 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+import yaml
+
 from .config import load_settings
 from .db import utc_now
 from .paths import ROOT, resolve
@@ -119,7 +121,20 @@ def classify_dual(e: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def enrich_event(e: dict[str, Any]) -> dict[str, Any]:
+def load_keystones() -> dict[str, dict[str, Any]]:
+    path = ROOT / "config" / "keystones.yaml"
+    if not path.exists():
+        return {}
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    out: dict[str, dict[str, Any]] = {}
+    for item in data.get("keystones") or []:
+        kid = str(item.get("id") or "").strip()
+        if kid:
+            out[kid] = item
+    return out
+
+
+def enrich_event(e: dict[str, Any], keystones: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
     out = dict(e)
     aid = normalize_arxiv_id(out.get("arxiv_id")) or normalize_arxiv_id(out.get("url"))
     if aid:
@@ -130,6 +145,26 @@ def enrich_event(e: dict[str, Any]) -> dict[str, Any]:
         out["url"] = out["url"]
     dual = classify_dual(out)
     out.update(dual)
+
+    keystones = keystones or {}
+    keys = []
+    if out.get("id"):
+        keys.append(str(out["id"]))
+    if out.get("arxiv_id"):
+        keys.append(str(out["arxiv_id"]))
+    ks = None
+    for k in keys:
+        if k in keystones:
+            ks = keystones[k]
+            break
+    if ks:
+        out["is_keystone"] = True
+        out["keystone_rank"] = int(ks.get("rank") or 0)
+        out["keystone_reason"] = ks.get("reason")
+    else:
+        out["is_keystone"] = False
+        out["keystone_rank"] = None
+        out["keystone_reason"] = None
     return out
 
 
@@ -142,6 +177,7 @@ def build_web_payload() -> dict[str, Any]:
     highlights = _load(stats / "timeline_highlights.json") or []
     contribution = _load(curated / "contribution_summary.json") or {}
     penetration = _load(stats / "penetration_summary.json") or {}
+    keystones = load_keystones()
     graded_rows: list[dict[str, Any]] = []
     gpath = curated / "contribution_graded.jsonl"
     if gpath.exists():
@@ -149,8 +185,8 @@ def build_web_payload() -> dict[str, Any]:
             if line.strip():
                 graded_rows.append(json.loads(line))
 
-    events = [enrich_event(e) for e in (timeline.get("events") or [])]
-    highlights = [enrich_event(e) for e in highlights]
+    events = [enrich_event(e, keystones) for e in (timeline.get("events") or [])]
+    highlights = [enrich_event(e, keystones) for e in highlights]
 
     navigable = []
     for e in events:
@@ -248,10 +284,29 @@ def build_web_payload() -> dict[str, Any]:
         },
         "penetration": penetration,
         "link_report": link_report,
+        "keystones": {
+            "count": sum(1 for e in uniq if e.get("is_keystone")),
+            "items": sorted(
+                [
+                    {
+                        "rank": e.get("keystone_rank"),
+                        "id": e.get("id") or e.get("arxiv_id"),
+                        "label": e.get("label"),
+                        "date": e.get("date"),
+                        "url": e.get("url"),
+                        "reason": e.get("keystone_reason"),
+                    }
+                    for e in uniq
+                    if e.get("is_keystone")
+                ],
+                key=lambda x: x.get("rank") or 99,
+            ),
+        },
         "notes": {
             "core": "Core contribution (≈ C3/C4 material claims)",
             "rigorous": "Rigorous process (formalization / machine-checked / verification)",
             "denominator": "arXiv cat:math* calendar-year totals via API",
+            "keystone": "Ten curated highlights on the rail (larger gold ticks)",
         },
     }
 
