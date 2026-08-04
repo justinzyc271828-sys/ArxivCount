@@ -10,7 +10,8 @@ Track how often `math.*` preprints mention LLMs, AI-assisted proofs, Lean/autofo
 |---|---|
 | Author | Justin Yao |
 | GitHub | [justinzyc271828-sys/ArxivCount](https://github.com/justinzyc271828-sys/ArxivCount) |
-| **Live timeline** | [justinzyc271828-sys.github.io/ArxivCount](https://justinzyc271828-sys.github.io/ArxivCount/) |
+| **Live timeline (EN)** | [justinzyc271828-sys.github.io/ArxivCount](https://justinzyc271828-sys.github.io/ArxivCount/) |
+| **时间轴（中文）** | [justinzyc271828-sys.github.io/ArxivCount/zh/](https://justinzyc271828-sys.github.io/ArxivCount/zh/) |
 | Scope (v1) | `math.*` only (cs.LO / cs.AI later) |
 
 > Personal homepage integration is optional and **not** wired yet — share the GitHub Pages timeline URL for now.

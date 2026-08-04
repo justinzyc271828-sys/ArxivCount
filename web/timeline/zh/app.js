@@ -1,11 +1,65 @@
-/* Clean hero timeline + dual tracks (English UI) */
+/* Chinese UI — same interaction as English timeline */
 
 (function () {
-  const data = window.ARXIVCOUNT_DATA;
-  if (!data) {
+  const raw = window.ARXIVCOUNT_DATA;
+  if (!raw) {
     document.body.innerHTML =
-      '<p style="color:#ccc;padding:2rem;font-family:sans-serif">Missing data.js — run: python -m src.export_web</p>';
+      '<p style="color:#ccc;padding:2rem;font-family:sans-serif">缺少 data.js — 请运行: python -m src.export_web</p>';
     return;
+  }
+
+  const I18N = window.ARXIVCOUNT_ZH || {};
+  const EVENT_ZH = I18N.events || {};
+  const PHASE_ZH = I18N.phases || {};
+  const SUBFIELD_ZH = I18N.subfields || {};
+
+  function deepClone(o) {
+    return JSON.parse(JSON.stringify(o));
+  }
+
+  function localizeEvent(e) {
+    if (!e) return e;
+    const z = EVENT_ZH[e.id] || {};
+    const out = Object.assign({}, e);
+    if (z.label) out.label = z.label;
+    if (z.note) out.note = z.note;
+    if (z.keystone_reason) out.keystone_reason = z.keystone_reason;
+    if (z.open_problem_name) out.open_problem_name = z.open_problem_name;
+    if (Array.isArray(out.subfields)) {
+      out.subfields = out.subfields.map((s) => SUBFIELD_ZH[s] || s);
+    }
+    return out;
+  }
+
+  const data = deepClone(raw);
+  if (data.project) {
+    data.project.title = "arXiv 上的 AI 辅助数学证明";
+  }
+  if (Array.isArray(data.phases)) {
+    data.phases = data.phases.map((ph) =>
+      Object.assign({}, ph, { label: PHASE_ZH[ph.id] || ph.label })
+    );
+  }
+  if (Array.isArray(data.navigable)) {
+    data.navigable = data.navigable.map(localizeEvent);
+  }
+  if (Array.isArray(data.events)) {
+    data.events = data.events.map(localizeEvent);
+  }
+  if (data.keystones && Array.isArray(data.keystones.items)) {
+    data.keystones.items = data.keystones.items.map((it) => {
+      const z = EVENT_ZH[it.id] || {};
+      return Object.assign({}, it, {
+        label: z.label || it.label,
+        reason: z.keystone_reason || it.reason,
+      });
+    });
+  }
+  if (data.dual && data.dual.labels) {
+    data.dual.labels = {
+      core: "核心贡献 — AI 对真实数学主张/结果有实质作用",
+      rigorous: "严格过程 — AI 参与形式化 / 验证 / 严格证明步骤",
+    };
   }
 
   const nav = data.navigable || [];
@@ -48,29 +102,25 @@
   function kindLabel(e) {
     if (e.type === "canon_milestone") {
       const map = {
-        model: "Model",
-        system: "System",
-        result: "Result",
-        trend: "Trend",
-        policy: "Policy",
-        community: "Community",
+        model: "模型",
+        system: "系统",
+        result: "结果",
+        trend: "趋势",
+        policy: "政策",
+        community: "社区",
       };
-      return map[e.kind] || "Milestone";
+      return map[e.kind] || "里程碑";
     }
-    // Public UI: no C0–C4 labels — only dual tracks + keystones
-    if (e.is_core_contribution && e.is_rigorous_process) return "Paper";
-    if (e.is_core_contribution) return "Paper";
-    if (e.is_rigorous_process) return "Paper";
-    return "Paper";
+    return "论文";
   }
 
   function trackLabel(e) {
     const t = e.public_track;
-    if (t === "both") return { text: "Core + rigorous", cls: "both" };
-    if (t === "core" || e.is_core_contribution) return { text: "Core contribution", cls: "core" };
-    if (t === "rigorous" || e.is_rigorous_process) return { text: "Rigorous process", cls: "rigorous" };
-    if (e.type === "canon_milestone") return { text: "Canon milestone", cls: "" };
-    return { text: "Other", cls: "" };
+    if (t === "both") return { text: "核心 + 严格", cls: "both" };
+    if (t === "core" || e.is_core_contribution) return { text: "核心贡献", cls: "core" };
+    if (t === "rigorous" || e.is_rigorous_process) return { text: "严格过程", cls: "rigorous" };
+    if (e.type === "canon_milestone") return { text: "正典里程碑", cls: "" };
+    return { text: "其他", cls: "" };
   }
 
   function jumpKeystone(dir) {
@@ -82,10 +132,10 @@
     const pos = ranks.findIndex((x) => x.i === idx);
     let next;
     if (pos < 0) {
-      // jump to nearest keystone by index
-      next = dir > 0
-        ? ranks.find((x) => x.i > idx) || ranks[0]
-        : [...ranks].reverse().find((x) => x.i < idx) || ranks[ranks.length - 1];
+      next =
+        dir > 0
+          ? ranks.find((x) => x.i > idx) || ranks[0]
+          : [...ranks].reverse().find((x) => x.i < idx) || ranks[ranks.length - 1];
     } else {
       const j = (pos + dir + ranks.length) % ranks.length;
       next = ranks[j];
@@ -108,10 +158,10 @@
     const banner = $("keystoneBanner");
     const card = $("focusCard");
     if (e.is_keystone) {
-      trackEl.textContent = `Keystone #${e.keystone_rank || "—"}`;
+      trackEl.textContent = `关键节点 #${e.keystone_rank || "—"}`;
       trackEl.className = "chip chip-keystone";
       banner.hidden = false;
-      $("keystoneBannerText").textContent = `Keystone #${e.keystone_rank} of 10`;
+      $("keystoneBannerText").textContent = `关键节点 #${e.keystone_rank} / 10`;
       card.classList.add("is-keystone");
     } else {
       trackEl.textContent = tr.text;
@@ -123,15 +173,15 @@
     $("focusTitle").textContent = e.label || e.title || e.id || "—";
     const noteBits = [];
     if (e.is_keystone && e.keystone_reason) noteBits.push(e.keystone_reason);
-    noteBits.push(e.note || e.open_problem_name || e.ai_role_summary || "No summary available.");
+    noteBits.push(e.note || e.open_problem_name || e.ai_role_summary || "暂无摘要。");
     $("focusNote").textContent = noteBits.join(" — ");
 
     const tags = [];
-    if (e.is_keystone) tags.push(["hot", `★ keystone #${e.keystone_rank}`]);
-    if (e.type === "canon_milestone") tags.push(["", "canon"]);
-    if (e.is_core_contribution) tags.push(["hot", "core contribution"]);
-    if (e.is_rigorous_process) tags.push(["ok", "rigorous process"]);
-    if (e.open_problem) tags.push(["hot", "open problem"]);
+    if (e.is_keystone) tags.push(["hot", `★ 关键节点 #${e.keystone_rank}`]);
+    if (e.type === "canon_milestone") tags.push(["", "正典"]);
+    if (e.is_core_contribution) tags.push(["hot", "核心贡献"]);
+    if (e.is_rigorous_process) tags.push(["ok", "严格过程"]);
+    if (e.open_problem) tags.push(["hot", "开放问题"]);
     if (Array.isArray(e.subfields)) {
       e.subfields.slice(0, 2).forEach((s) => tags.push(["", s]));
     }
@@ -139,7 +189,6 @@
       .map(([cls, t]) => `<span class="tag ${cls}">${t}</span>`)
       .join("");
 
-    // sync keystone button strip
     document.querySelectorAll(".ks-btn").forEach((btn) => {
       const bi = Number(btn.dataset.i);
       btn.classList.toggle("active", bi === idx);
@@ -150,7 +199,7 @@
     if (e.url) {
       link.href = e.url;
       link.style.visibility = "visible";
-      link.textContent = e.arxiv_id ? `Open paper · ${e.arxiv_id}` : "Open source";
+      link.textContent = e.arxiv_id ? `打开论文 · ${e.arxiv_id}` : "打开来源";
     } else {
       link.removeAttribute("href");
       link.style.visibility = "hidden";
@@ -231,17 +280,13 @@
     const latest = p.latest || {};
     const ks = (data.keystones && data.keystones.count) || nav.filter((e) => e.is_keystone).length;
     const items = [
-      { k: "Core contribution", v: d.core_n ?? c.strict_n ?? "—", h: "material math claims" },
-      { k: "Rigorous process", v: d.rigorous_n ?? "—", h: "formal / verification steps" },
+      { k: "核心贡献", v: d.core_n ?? c.strict_n ?? "—", h: "实质数学主张" },
+      { k: "严格过程", v: d.rigorous_n ?? "—", h: "形式化 / 验证步骤" },
+      { k: "关键节点", v: ks, h: "金色刻度 · Shift+←/→" },
       {
-        k: "Keystones",
-        v: ks,
-        h: "gold ticks · Shift+←/→",
-      },
-      {
-        k: "Core / 10k math",
+        k: "核心 / 万篇 math",
         v: latest.strict_per_10k != null ? Number(latest.strict_per_10k).toFixed(1) : "—",
-        h: latest.year ? `${latest.year} · partial if 2026` : "denominator",
+        h: latest.year ? `${latest.year} · 若为 2026 则为不完全年` : "分母",
       },
     ];
     $("metricRow").innerHTML = items
@@ -261,12 +306,10 @@
 
     const box = $("chartCounts");
     if (!years.length) {
-      box.innerHTML = `<p class="legend">No yearly dual-track data yet.</p>`;
+      box.innerHTML = `<p class="legend">暂无逐年双轨数据。</p>`;
     } else {
       const max = Math.max(
-        ...years.map((y) =>
-          Math.max(Number(coreY[y] || 0), Number(rigY[y] || 0))
-        ),
+        ...years.map((y) => Math.max(Number(coreY[y] || 0), Number(rigY[y] || 0))),
         1
       );
       box.innerHTML = years
@@ -289,7 +332,7 @@
     const penYears = (data.penetration && data.penetration.years) || [];
     const penBox = $("chartPen");
     if (!penYears.length) {
-      penBox.innerHTML = `<p class="legend">Run: python -m src.denominator</p>`;
+      penBox.innerHTML = `<p class="legend">请运行: python -m src.denominator</p>`;
     } else {
       const show = penYears.filter((r) => r.year >= 2022);
       const max = Math.max(...show.map((r) => Number(r.strict_per_10k || 0)), 0.01);
@@ -303,7 +346,7 @@
         })
         .join("");
       $("penFoot").textContent =
-        "Per 10k uses the material/core set over yearly math.* totals. 2026 is partial-year. Disclosed-proxy lower bound.";
+        "每万篇基于核心/实质集合除以当年 math.* 总量。2026 为不完全年。为自我披露代理下界。";
     }
   }
 
@@ -316,7 +359,7 @@
             <strong>${ph.label || ph.id}</strong><br/>
             <span>${ph.start} → ${ph.end}</span>
           </div>
-          <div class="n">${ph.strict_like ?? 0} core-like</div>
+          <div class="n">${ph.strict_like ?? 0} 核心向</div>
         </div>`
       )
       .join("");
@@ -327,9 +370,9 @@
     const lr = data.link_report || {};
     const bits = [];
     if (proj.github) bits.push(`<a href="${proj.github}" target="_blank" rel="noopener">GitHub</a>`);
-    bits.push(`Papers with abs links: ${lr.paper_events_with_abs ?? "—"}`);
-    bits.push(`Generated ${(data.generated_at || "").slice(0, 19)}`);
-    bits.push(`<a href="./zh/" hreflang="zh-CN">中文</a>`);
+    bits.push(`带摘要页链接的论文：${lr.paper_events_with_abs ?? "—"}`);
+    bits.push(`生成于 ${(data.generated_at || "").slice(0, 19)}`);
+    bits.push(`<a href="../" hreflang="en">English</a>`);
     $("dataFoot").innerHTML = bits.join(" · ");
   }
 
