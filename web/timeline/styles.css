@@ -253,7 +253,7 @@ body {
 }
 .tick:hover { transform: scale(1.25); background: #4b5a72; }
 .tick.canon { background: #7c6bb5; }
-.tick.c4 { background: #b45c6a; }
+.tick.core-tick { background: #6b8cae; }
 .tick.keystone {
   width: 18px;
   height: 18px;

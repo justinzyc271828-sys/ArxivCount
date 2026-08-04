@@ -32,7 +32,7 @@
 
   function iconFor(e) {
     if (e.type === "canon_milestone") return ICONS[e.kind] || ICONS.system;
-    if (e.is_core_contribution || e.contribution_tier === "C4" || e.open_problem) return ICONS.result;
+    if (e.is_core_contribution || e.open_problem) return ICONS.result;
     if (e.is_rigorous_process) return ICONS.system;
     return ICONS.paper;
   }
@@ -57,7 +57,11 @@
       };
       return map[e.kind] || "Milestone";
     }
-    return e.contribution_tier || "Paper";
+    // Public UI: no C0–C4 labels — only dual tracks + keystones
+    if (e.is_core_contribution && e.is_rigorous_process) return "Paper";
+    if (e.is_core_contribution) return "Paper";
+    if (e.is_rigorous_process) return "Paper";
+    return "Paper";
   }
 
   function trackLabel(e) {
@@ -165,7 +169,7 @@
         const cls = ["tick"];
         if (e.is_keystone) cls.push("keystone");
         else if (e.type === "canon_milestone") cls.push("canon");
-        else if (e.is_core_contribution || e.contribution_tier === "C4") cls.push("c4");
+        else if (e.is_core_contribution) cls.push("core-tick");
         if (i === idx) cls.push("active");
         const tip = (e.label || e.id || "").toString().replace(/"/g, "&quot;");
         const star = e.is_keystone ? `★#${e.keystone_rank} · ` : "";
