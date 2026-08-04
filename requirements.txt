@@ -1,0 +1,11 @@
+arxiv>=2.1.0
+feedparser>=6.0.11
+requests>=2.31.0
+pandas>=2.1.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+plotly>=5.18.0
+streamlit>=1.30.0
+python-dateutil>=2.8.2
+openai>=1.40.0
+pypdf>=4.0.0

@@ -1,0 +1,10 @@
+{
+  "count": 27,
+  "min_level": "L1",
+  "drop_writing_only": true,
+  "by_level": {
+    "L3": 3,
+    "L2": 8,
+    "L1": 16
+  }
+}

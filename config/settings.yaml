@@ -1,0 +1,70 @@
+# Project defaults for collection and analysis.
+
+project:
+  name: ArxivCount
+  title: "AI-Assisted Math Proofs on arXiv"
+  author: "Justin Yao"
+  github: "https://github.com/justinzyc271828-sys/ArxivCount"
+  website: "https://justinzyc271828-sys.github.io/"
+  arxiv_user: "justinzyc271828"
+
+arxiv:
+  # Primary scope for v1
+  categories:
+    - math.*
+  # Future expansion (disabled by default)
+  categories_optional:
+    - cs.LO
+    - cs.AI
+    - cs.LG
+  # Collection window (inclusive start year)
+  start_date: "2015-01-01"
+  # Leave null to mean "now"
+  end_date: null
+  # arXiv API politeness
+  page_size: 100
+  request_delay_seconds: 3.0
+  max_results_per_query: 30000
+  sort_by: submittedDate
+  sort_order: descending
+
+paths:
+  raw_dir: data/raw
+  downloads_dir: data/downloads
+  candidates_dir: data/candidates
+  curated_dir: data/curated
+  stats_dir: data/stats
+  db_path: data/raw/arxiv_math.sqlite3
+  loose_keywords: config/keywords_loose.yaml
+  strict_keywords: config/keywords_strict.yaml
+  milestones: config/milestones.yaml
+
+collect:
+  # Stage A: query arXiv with broad AI/LLM/formal terms under math.*
+  # Then re-filter locally with the full loose dictionary.
+  seed_queries:
+    - 'all:"large language model" OR all:LLM OR all:ChatGPT OR all:GPT'
+    - 'all:Lean OR all:mathlib OR all:autoformalization OR all:"theorem proving"'
+    - 'all:"AI-assisted" OR all:"AI-generated" OR all:"computer-assisted proof"'
+    - 'all:AlphaProof OR all:AlphaGeometry OR all:Isabelle OR all:Coq'
+  # If true, also scan local DB of all previously stored math papers
+  rescan_local: true
+
+classify:
+  # Loose hit → candidate; score thresholds for display tiers
+  levels:
+    L0: 1   # weak AI mention
+    L1: 4   # likely AI-assisted math work
+    L2: 7   # formal + AI signals
+    L3: 10  # open-problem + strong AI signals (heuristic)
+
+download:
+  # Optional full-text later; off by default
+  fetch_pdf: false
+  fetch_html_source: false
+
+refine:
+  model: deepseek-v4-flash
+  workers: 6
+  # env: DEEPSEEK_API_KEY (required for LLM stage)
+  # optional: DEEPSEEK_BASE_URL (default https://api.deepseek.com)

@@ -1,0 +1,81 @@
+# Stricter dictionary for stage-B curation (precision over recall).
+# Used by classify/curate to promote candidates into L1+ tiers.
+
+version: 1
+name: strict
+description: >
+  Stronger signals that the paper likely involves AI in proving,
+  formalizing, or discovering mathematics — not mere writing help.
+
+strong_terms:
+  - ai-assisted proof
+  - ai assisted proof
+  - ai-generated proof
+  - ai generated proof
+  - ai-generated counterexample
+  - openai-generated
+  - openai generated
+  - llm-generated proof
+  - llm generated proof
+  - llm-assisted proof
+  - machine-generated proof
+  - machine generated proof
+  - autoformalization
+  - auto-formalization
+  - neural theorem proving
+  - automated theorem proving
+  - formal proof search
+  - alphaproof
+  - alphageometry
+  - lean 4 proof
+  - lean4 proof
+  - proof in lean
+  - formalized in lean
+  - machine-checked proof
+  - machine checked proof
+  - disproved by
+  - proved by an llm
+  - proved by a large language model
+  - solved by chatgpt
+  - solved by gpt
+
+formal_terms:
+  - lean 4
+  - lean4
+  - mathlib
+  - isabelle/hol
+  - isabelle
+  - coq proof
+  - formal verification
+  - formalized proof
+  - formal proof
+
+ai_model_terms:
+  - chatgpt
+  - gpt-4
+  - gpt-5
+  - claude
+  - large language model
+  - language model
+  - llm
+
+# Promote to L3-candidate when co-occurring with open-problem language.
+open_problem_terms:
+  - conjecture
+  - open problem
+  - erdős
+  - erdos
+  - disprove
+  - disproof
+  - counterexample
+  - resolved
+  - unit distance
+
+# Explicit writing-only demotion (exclude from curated L1+ unless overridden).
+exclude_if_only:
+  - writing assistance
+  - helped write
+  - grammar
+  - proofreading
+  - language editing
+  - polishing the manuscript

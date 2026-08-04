@@ -1,0 +1,59 @@
+# Local heavy data (keep structure via .gitkeep)
+data/raw/**
+!data/raw/.gitkeep
+data/downloads/**
+!data/downloads/.gitkeep
+
+data/candidates/**
+!data/candidates/.gitkeep
+!data/candidates/sample/
+!data/candidates/sample/**
+
+data/curated/**
+!data/curated/.gitkeep
+!data/curated/sample/
+!data/curated/sample/**
+# LLM label cache can be large / machine-local
+data/curated/llm_labels_cache.jsonl
+data/curated/deep_audit_cache.jsonl
+data/curated/refine_full.log
+data/curated/deep_audit_full.log
+data/curated/fulltext_audit_cache.jsonl
+data/curated/fulltext_download_meta.jsonl
+data/curated/contribution_cache.jsonl
+data/curated/contribution_full.log
+
+data/stats/**
+!data/stats/.gitkeep
+!data/stats/sample/
+!data/stats/sample/**
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.python-version
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Caches & logs
+.cache/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml

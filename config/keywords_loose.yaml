@@ -1,0 +1,100 @@
+# High-recall dictionary for stage-A candidate collection.
+# Prefer false positives over false negatives; stage-B curates later.
+
+version: 1
+name: loose
+description: >
+  Broad proxy for AI-related mathematical work on arXiv.
+  Matches title + abstract (and later full text if downloaded).
+
+# Case-insensitive substring / phrase match against title + abstract.
+terms:
+  # General AI / LLM
+  - large language model
+  - language model
+  - llm
+  - chatgpt
+  - gpt-3
+  - gpt-4
+  - gpt-5
+  - gpt-4o
+  - claude
+  - gemini
+  - grok
+  - deepseek
+  - openai
+  - anthropic
+  - generative ai
+  - foundation model
+
+  # AI-assisted proof / discovery language
+  - ai-assisted
+  - ai assisted
+  - ai-generated
+  - ai generated
+  - machine-generated proof
+  - machine generated proof
+  - llm-generated
+  - llm generated
+  - llm-assisted
+  - llm assisted
+  - neural theorem
+  - automated theorem
+  - theorem proving
+  - theorem prover
+  - proof search
+  - proof assistant
+  - autoformalization
+  - auto-formalization
+  - formal verification
+  - formal proof
+  - machine learning proof
+  - reinforcement learning proof
+
+  # Formal systems frequently paired with AI-for-math
+  - lean 4
+  - lean4
+  - mathlib
+  - isabelle
+  - coq
+  - hol light
+  - metamathematics
+  - interactive theorem
+
+  # Named systems / projects
+  - alphaproof
+  - alphageometry
+  - funsearch
+  - minerva
+  - deepmind
+  - aristotle
+  - harmonic
+  - putnambench
+  - formalmath
+
+  # Discovery / conjecture language often co-occurring
+  - computer-assisted proof
+  - computer assisted proof
+  - computational proof
+  - sat solver
+  - smt solver
+
+# Optional regex (applied after plain terms; still case-insensitive).
+regex:
+  - '\\bgpt[- ]?\\d'
+  - '\\bllms?\\b'
+  - '\\blean\\b'
+  - 'ai[- ]?(aided|assisted|generated|powered|driven)'
+  - 'machine[- ]?(aided|assisted|generated)'
+  - 'language[- ]models?'
+
+# Soft down-weight signals (still collected in loose mode; used for scoring).
+writing_only_hints:
+  - writing assistance
+  - helped write
+  - helped with writing
+  - improved the writing
+  - grammar
+  - proofreading
+  - polishing the manuscript
+  - language editing

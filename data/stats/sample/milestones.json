@@ -1,0 +1,55 @@
+[
+  {
+    "id": "chatgpt",
+    "date": "2022-11-30",
+    "label": "ChatGPT public launch",
+    "kind": "model",
+    "note": "Start of mass LLM adoption; many early papers only mention writing help."
+  },
+  {
+    "id": "minerva",
+    "date": "2022-06-30",
+    "label": "Minerva (math LLM)",
+    "kind": "system",
+    "note": "Google research milestone for quantitative reasoning."
+  },
+  {
+    "id": "alphageometry",
+    "date": "2024-01-17",
+    "label": "AlphaGeometry",
+    "kind": "system",
+    "note": "Olympiad-level geometry with neuro-symbolic methods."
+  },
+  {
+    "id": "alphaproof",
+    "date": "2024-07-25",
+    "label": "AlphaProof / IMO silver-level",
+    "kind": "system",
+    "note": "DeepMind formal theorem proving at IMO scale."
+  },
+  {
+    "id": "erdos_1196",
+    "date": "2026-04-13",
+    "label": "GPT solves Erdős #1196 (reported)",
+    "kind": "result",
+    "note": "Primitive sets conjecture; often cited as a step-change before unit distance.",
+    "arxiv": "2605.00301"
+  },
+  {
+    "id": "unit_distance",
+    "date": "2026-05-20",
+    "label": "Unit distance conjecture disproof (OpenAI model)",
+    "kind": "result",
+    "note": "OpenAI internal model disproved Erdős unit-distance upper-bound conjecture; human-digested writeups followed on arXiv.\n",
+    "links": [
+      "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+    ]
+  },
+  {
+    "id": "lean_ai_wave",
+    "date": "2025-01-01",
+    "label": "Lean + LLM research-level formalization wave",
+    "kind": "trend",
+    "note": "Proxy marker for accelerating autoformalization / agentic Lean work."
+  }
+]

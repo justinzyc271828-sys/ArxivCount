@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArxivCount · Timeline</title>
+  <meta name="description" content="Interactive timeline of AI-assisted mathematics on arXiv" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- ========== ABOVE THE FOLD: story only ========== -->
+  <main class="hero" id="hero">
+    <header class="hero-bar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">∫</span>
+        <span class="brand-name">ArxivCount</span>
+        <span class="brand-sep">/</span>
+        <span class="brand-sub">Timeline</span>
+      </div>
+      <div class="hero-bar-right">
+        <span class="pill" id="progressPill">—</span>
+        <a class="text-link" href="#data">Data ↓</a>
+      </div>
+    </header>
+
+    <div class="stage">
+      <button type="button" class="nav-fab prev" id="btnPrev" aria-label="Previous">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+
+      <article class="focus" id="focusCard">
+        <div class="focus-icon-wrap" id="focusIcon" aria-hidden="true"></div>
+        <div class="focus-meta">
+          <span class="chip chip-kind" id="focusKind">—</span>
+          <span class="chip chip-date" id="focusDate">—</span>
+        </div>
+        <h1 class="focus-title" id="focusTitle">…</h1>
+        <p class="focus-note" id="focusNote"></p>
+        <div class="focus-tags" id="focusTags"></div>
+        <div class="focus-cta">
+          <a class="btn-primary" id="focusLink" href="#" target="_blank" rel="noopener">Open source</a>
+          <button type="button" class="btn-ghost" id="btnHintKeys">← → to browse</button>
+        </div>
+      </article>
+
+      <button type="button" class="nav-fab next" id="btnNext" aria-label="Next">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+
+    <div class="scrub">
+      <div class="scrub-track" id="scrubTrack" role="listbox" aria-label="Timeline"></div>
+    </div>
+
+    <a class="scroll-cue" href="#data">
+      <span>Scroll for counts &amp; penetration</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
+  </main>
+
+  <!-- ========== BELOW THE FOLD: data only ========== -->
+  <section class="data-zone" id="data">
+    <div class="data-inner">
+      <header class="data-head">
+        <h2>Data panel</h2>
+        <p>
+          Kept separate from the story view above. Numbers are a seed-query proxy on arXiv
+          <code>math.*</code> with contribution tiers and a math-total denominator — not a full census of the field.
+        </p>
+      </header>
+
+      <div class="metric-row" id="metricRow"></div>
+
+      <div class="grid-2">
+        <div class="panel">
+          <div class="panel-title">
+            <span class="dot wide"></span>
+            Wide / Strict yearly counts
+          </div>
+          <div id="chartCounts" class="chart-area"></div>
+          <p class="legend"><span class="sw wide"></span> Wide (C2+) &nbsp; <span class="sw strict"></span> Strict (C3+)</p>
+        </div>
+        <div class="panel">
+          <div class="panel-title">
+            <span class="dot strict"></span>
+            Penetration · per 10k math.* papers
+          </div>
+          <div id="chartPen" class="chart-area"></div>
+          <p class="legend" id="penFoot">Denominator: arXiv API <code>cat:math*</code></p>
+        </div>
+      </div>
+
+      <div class="panel phases-panel">
+        <div class="panel-title">Phases</div>
+        <div class="phase-grid" id="phaseGrid"></div>
+      </div>
+
+      <footer class="data-foot" id="dataFoot"></footer>
+    </div>
+  </section>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

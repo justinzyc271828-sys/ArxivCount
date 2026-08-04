@@ -1,0 +1,79 @@
+# Strict contribution taxonomy for AI-for-math impact analysis.
+# Use this for "wide set" vs "strict impact set" dual reporting.
+
+version: 1
+name: contribution_tiers
+
+# C0–C4: increasing mathematical impact claim
+tiers:
+  C0:
+    label: noise_or_false_positive
+    keep_in_wide: false
+    keep_in_strict: false
+    description: >
+      Keyword/LLM accident, or AI only as application context (e.g. "used to train LLMs")
+      without AI contributing to mathematical reasoning in this paper.
+
+  C1:
+    label: writing_or_peripheral
+    keep_in_wide: false
+    keep_in_strict: false
+    description: >
+      AI only for English polishing, formatting, literature search summaries, or
+      generic coding help unrelated to the mathematical claim.
+
+  C2:
+    label: assistive_but_not_decisive
+    keep_in_wide: true
+    keep_in_strict: false
+    description: >
+      AI helped exploration, checking examples, suggesting lemmas, drafting steps,
+      or writing Lean tactics — but a competent human could have finished without AI;
+      AI is not claimed as essential to the main result.
+
+  C3:
+    label: material_contribution
+    keep_in_wide: true
+    keep_in_strict: true
+    description: >
+      AI produced a key lemma, counterexample, construction, search trajectory, or
+      formal proof that authors treat as material to the result; human still owns
+      verification/statement design. Includes serious autoformalization of new work.
+
+  C4:
+    label: decisive_or_milestone_result
+    keep_in_wide: true
+    keep_in_strict: true
+    description: >
+      AI played a decisive role in resolving/refuting a named open problem or producing
+      a community-visible breakthrough (or the paper is the primary writeup of such).
+      Still may include human digestion/verification.
+
+# Capability buckets (what AI is doing), orthogonal to tier
+capabilities:
+  - prose_editing
+  - code_generation
+  - example_search
+  - lemma_suggestion
+  - full_proof_draft
+  - counterexample_construction
+  - conjecture_proposal
+  - large_scale_search_evolution
+  - autoformalization
+  - formal_proof_search
+  - verification_bugfinding
+  - method_or_benchmark_only
+
+# Dual curves for articles/dashboard
+reporting_sets:
+  wide:
+    include_tiers: [C2, C3, C4]
+    purpose: ecosystem volume (tools + real math help)
+  strict:
+    include_tiers: [C3, C4]
+    purpose: mathematical impact claims
+  milestone_candidates:
+    include_tiers: [C4]
+    also_if:
+      - open_problem_and_C3
+      - community_milestone_writeup

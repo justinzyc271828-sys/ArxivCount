@@ -1,0 +1,97 @@
+# Canon milestones for the public timeline.
+# kind: model | system | result | policy | trend | community
+# phase: prehistory | tools | olympiad | research_entry | open_problem_wave
+
+version: 2
+phases:
+  - id: prehistory
+    label: "Pre-ChatGPT tooling"
+    start: "2015-01-01"
+    end: "2022-10-31"
+  - id: mass_llm
+    label: "Mass LLM entry"
+    start: "2022-11-01"
+    end: "2023-12-31"
+  - id: olympiad_formal
+    label: "Olympiad & formal systems"
+    start: "2024-01-01"
+    end: "2024-12-31"
+  - id: research_entry
+    label: "Research-level entry"
+    start: "2025-01-01"
+    end: "2025-12-31"
+  - id: open_problem_wave
+    label: "Open-problem wave"
+    start: "2026-01-01"
+    end: "2026-12-31"
+
+milestones:
+  - id: minerva
+    date: "2022-06-30"
+    label: "Minerva (math LLM)"
+    kind: system
+    phase: prehistory
+    note: "Quantitative reasoning LM; still mostly benchmarks, not research proofs."
+
+  - id: chatgpt
+    date: "2022-11-30"
+    label: "ChatGPT public launch"
+    kind: model
+    phase: mass_llm
+    note: "Mass adoption begins; flood of writing-help mentions and early math experiments."
+
+  - id: gpt4
+    date: "2023-03-14"
+    label: "GPT-4 era math demos"
+    kind: model
+    phase: mass_llm
+    note: "Stronger informal math demos; still unreliable for research claims."
+
+  - id: alphageometry
+    date: "2024-01-17"
+    label: "AlphaGeometry"
+    kind: system
+    phase: olympiad_formal
+    note: "Olympiad geometry; neuro-symbolic template for later research systems."
+
+  - id: alphaproof
+    date: "2024-07-25"
+    label: "AlphaProof / IMO-level formal proving"
+    kind: system
+    phase: olympiad_formal
+    note: "Formal theorem proving at IMO scale; Lean as verification backbone."
+
+  - id: lean_ai_wave
+    date: "2025-01-01"
+    label: "Lean + LLM research formalization wave"
+    kind: trend
+    phase: research_entry
+    note: "Autoformalization / agentic Lean starts showing research-adjacent use."
+
+  - id: erdos_1196
+    date: "2026-04-13"
+    label: "Erdős #1196 (GPT-assisted, reported)"
+    kind: result
+    phase: open_problem_wave
+    note: "Primitive sets; often cited as leap from olympiad-style to actively studied problems."
+    arxiv: "2605.00301"
+    contribution_hint: C4
+
+  - id: unit_distance
+    date: "2026-05-20"
+    label: "Unit distance conjecture disproof (OpenAI model)"
+    kind: result
+    phase: open_problem_wave
+    note: >
+      High-visibility discrete geometry milestone; human-digested arXiv writeups follow.
+      Narrative anchor for "AI can move major open problems."
+    links:
+      - "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+    contribution_hint: C4
+
+  - id: formal_open_problems
+    date: "2026-01-01"
+    label: "Agentic Lean / open-problem formal results cluster"
+    kind: trend
+    phase: open_problem_wave
+    note: "Cluster of Erdős-problem and formalized AI proofs in early–mid 2026."

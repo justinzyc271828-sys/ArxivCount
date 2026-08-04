@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxivcount"
+version = "0.1.0"
+description = "Track AI-assisted mathematical work on arXiv (math.*) with local collect → curate → visualize pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Justin Yao" }]
+dependencies = [
+  "arxiv>=2.1.0",
+  "feedparser>=6.0.11",
+  "requests>=2.31.0",
+  "pandas>=2.1.0",
+  "pyyaml>=6.0.1",
+  "tqdm>=4.66.0",
+  "plotly>=5.18.0",
+  "streamlit>=1.30.0",
+  "python-dateutil>=2.8.2",
+]
+
+[project.urls]
+Homepage = "https://justinzyc271828-sys.github.io/"
+Repository = "https://github.com/justinzyc271828-sys/ArxivCount"
+
+[tool.setuptools.packages.find]
+include = ["src*"]

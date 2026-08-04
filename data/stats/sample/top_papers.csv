@@ -1,0 +1,65 @@
+arxiv_id,title,published,primary_category,score,level,writing_only,pdf_url
+2511.02864,Mathematical exploration and discovery at scale,2025-11-03T16:04:07+00:00,cs.NE,17.0,L3,0,https://arxiv.org/pdf/2511.02864v3
+2509.19854,L-Mosaics and Bounded Join-Semilattices in Isabelle/HOL,2025-09-24T07:53:29+00:00,cs.LO,15.5,L2,0,https://arxiv.org/pdf/2509.19854v1
+2606.19761,Finishing Oltean's Completeness Proof in Lean 4 for Hybrid Logic $L(\forall)$,2026-06-18T03:44:43+00:00,cs.LO,14.0,L2,0,https://arxiv.org/pdf/2606.19761v1
+2608.01396,"Three Graffiti.pc Conjectures on Largest Induced Trees: Proofs of Conjectures 141, 142, and 143",2026-08-02T17:23:15+00:00,math.CO,11.5,L3,0,https://arxiv.org/pdf/2608.01396v1
+2607.24483,The exact solution of Bellman's lost-in-a-forest problem for the golden gnomon,2026-07-27T14:18:28+00:00,math.MG,10.0,L3,0,https://arxiv.org/pdf/2607.24483v1
+2606.29406,Adaptive AI Delegation under Uncertainty: A Bayesian Governance Policy for Sequential Decision Authority,2026-06-28T14:01:42+00:00,q-fin.RM,9.0,L1,0,https://arxiv.org/pdf/2606.29406v1
+2604.05238,A Prime-Generated Formalization of Nagata's Factoriality Theorem in Lean 4,2026-04-06T23:01:57+00:00,math.AC,8.5,L2,0,https://arxiv.org/pdf/2604.05238v1
+2607.29349,The $δ$-calculus: from distinction to arithmetic,2026-07-31T12:35:05+00:00,math.LO,7.5,L2,0,https://arxiv.org/pdf/2607.29349v1
+2607.29111,Fitting's Theorem and Semirings of Normal Subgroups,2026-07-31T07:40:56+00:00,math.GR,7.5,L2,0,https://arxiv.org/pdf/2607.29111v1
+2608.00081,Value distributions for read-once polynomials on finite fields,2026-07-29T15:48:27+00:00,math.CO,7.5,L2,0,https://arxiv.org/pdf/2608.00081v1
+2607.27918,OptGraph: Large Language Models Enhanced Evolutionary Optimization Via Graph Retrieval-Augmented Generation,2026-07-30T09:30:03+00:00,math.OC,7.0,L1,0,https://arxiv.org/pdf/2607.27918v1
+2607.25956,Large Language Model for Operations Research Formulation Selection in Multi-Warehouse Inventory Allocation,2026-07-28T16:41:54+00:00,cs.AI,7.0,L1,0,https://arxiv.org/pdf/2607.25956v1
+2607.23828,Powers of the Vandermonde determinant are eventually non-SNP,2026-07-26T20:26:54+00:00,math.CO,7.0,L2,0,https://arxiv.org/pdf/2607.23828v1
+2603.25682,On the Formalization of Network Topology Matrices in HOL,2026-03-26T17:32:40+00:00,cs.LO,7.0,L2,0,https://arxiv.org/pdf/2603.25682v1
+2608.00377,Schubitopes are not Ehrhart positive,2026-08-01T01:20:07+00:00,math.CO,6.0,L1,0,https://arxiv.org/pdf/2608.00377v1
+2607.25533,Computable Quantification in Reflective Grounded Arithmetic,2026-07-28T10:18:18+00:00,math.LO,6.0,L1,0,https://arxiv.org/pdf/2607.25533v1
+2607.03639,An AI-Assisted Solution to the Signed BAR Conjecture: Uniqueness in the Harrison--Reiman Class and a Completely-$\mathcal{S}$ Class Obstruction,2026-07-03T23:34:23+00:00,math.PR,6.0,L1,0,https://arxiv.org/pdf/2607.03639v1
+2607.25628,Kernel-Checked Exclusions for the Erdős-Selfridge Odd Covering Problem: Any Odd Covering of $\mathbb{Z}$ Has lcm Exceeding 10000,2026-07-28T12:10:26+00:00,cs.LO,5.5,L1,0,https://arxiv.org/pdf/2607.25628v1
+2608.02327,ICC property(T) groups without W$^*$-superrigidity,2026-08-03T14:50:28+00:00,math.OA,5.0,L1,0,https://arxiv.org/pdf/2608.02327v1
+2608.01040,The equality case of Ehrhart's volume conjecture,2026-08-02T06:54:11+00:00,math.CO,5.0,L1,0,https://arxiv.org/pdf/2608.01040v1
+2607.27731,Towards joint scaling laws with optimal batch size schedules,2026-07-30T06:14:04+00:00,cs.LG,5.0,L1,0,https://arxiv.org/pdf/2607.27731v1
+2607.24304,Teacher Knows It Best: Spontaneous Symmetry Breaking and Tipping Points in Networked Langevin Dynamics AI Sycophancy,2026-07-27T11:47:57+00:00,physics.soc-ph,5.0,L1,0,https://arxiv.org/pdf/2607.24304v1
+2607.04891,A counterexample to the odd-dimensional rank bound for abelian \texorpdfstring{$p$}{p}-group actions,2026-07-06T10:16:38+00:00,math.AG,5.0,L1,0,https://arxiv.org/pdf/2607.04891v1
+2510.22576,Fraudulent Publishing in Mathematics: A European Call to Action and How Information Infrastructure Can Help,2025-10-26T08:18:19+00:00,cs.DL,5.0,L1,0,https://arxiv.org/pdf/2510.22576v1
+2608.01673,Sparse supports of lattice eigenfunctions: quantitative growth and algebraic rigidity,2026-08-03T04:07:59+00:00,math.CA,4.0,L1,0,https://arxiv.org/pdf/2608.01673v1
+2607.26419,A Mixed-Resonance Counterexample to the Lukic Conjecture,2026-07-29T03:05:34+00:00,math.CA,4.0,L1,0,https://arxiv.org/pdf/2607.26419v1
+2607.10880,First-Order Modal Logic in HOL: Deep and Shallow Embeddings with Automated Faithfulness (Extended Preprint),2026-07-12T19:03:54+00:00,cs.AI,4.0,L1,0,https://arxiv.org/pdf/2607.10880v2
+2607.27452,"Counterexamples, Spectral Obstructions, and Deletion Stability for WOW-284",2026-07-29T20:34:55+00:00,math.CO,3.5,L0,0,https://arxiv.org/pdf/2607.27452v1
+2511.12727,A Topological Rewriting of Tarski's Mereogeometry,2025-11-16T18:51:40+00:00,math.LO,3.5,L0,0,https://arxiv.org/pdf/2511.12727v1
+2509.12337,Determination of the fifth Busy Beaver value,2025-09-15T18:05:08+00:00,cs.LO,3.5,L0,0,https://arxiv.org/pdf/2509.12337v2
+2608.02537,Multicolor Ramsey numbers of odd cycles are superexponential,2026-08-03T17:28:09+00:00,math.CO,3.0,L0,0,https://arxiv.org/pdf/2608.02537v1
+2608.01156,The Uniform Gromov Hausdorff Gap Problem for Approximating Spheres by Finite Homogeneous Spaces,2026-08-02T11:27:39+00:00,math.MG,3.0,L0,0,https://arxiv.org/pdf/2608.01156v1
+2608.00886,Joint Optimization of Human Headcount and Stochastic AI Resource Capacity,2026-08-01T22:34:02+00:00,cs.SE,3.0,L0,0,https://arxiv.org/pdf/2608.00886v1
+2607.26989,Removing the Torsion-free Hypothesis in a Positivity Theorem on Deligne-Mumford Stacks,2026-07-29T14:47:46+00:00,math.AG,3.0,L0,0,https://arxiv.org/pdf/2607.26989v1
+2607.26396,Twelve common flex lines in a general pencil of cubics,2026-07-29T02:12:05+00:00,math.AG,3.0,L0,0,https://arxiv.org/pdf/2607.26396v1
+2607.24528,On Feige's conjecture,2026-07-27T15:07:59+00:00,math.PR,3.0,L0,0,https://arxiv.org/pdf/2607.24528v1
+2607.23980,Sharp small-deviation inequalities for sums of independent nonnegative random variables,2026-07-27T04:06:33+00:00,math.PR,3.0,L0,0,https://arxiv.org/pdf/2607.23980v1
+2606.23821,Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems,2026-06-22T18:03:59+00:00,math.NA,3.0,L0,0,https://arxiv.org/pdf/2606.23821v1
+2607.26230,Formally certifying number field invariants,2026-07-28T20:10:41+00:00,cs.LO,2.5,L0,0,https://arxiv.org/pdf/2607.26230v1
+2608.01515,The Set of Correlated Equilibrium Payoffs for a Fixed Information Structure Need Not Be Closed,2026-08-02T21:55:44+00:00,econ.TH,2.0,L0,0,https://arxiv.org/pdf/2608.01515v1
+2608.01393,Universal Triangle Covering Curve and Polygonal Chain: Escaping Forest and Fitting Worm,2026-08-02T17:17:32+00:00,math.OC,2.0,L0,0,https://arxiv.org/pdf/2608.01393v1
+2607.26305,Inclusions between p-bounded crystalline loci in dimension two,2026-07-28T21:59:45+00:00,math.NT,2.0,L0,0,https://arxiv.org/pdf/2607.26305v1
+2607.25279,Many-body Tipping Dynamics of ChatGPT-like AIs,2026-07-28T04:32:54+00:00,cs.AI,2.0,L0,0,https://arxiv.org/pdf/2607.25279v1
+2607.25064,Elementary equivalence of convex bodies in affine and projective languages,2026-07-27T20:48:15+00:00,math.MG,2.0,L0,0,https://arxiv.org/pdf/2607.25064v1
+2607.24691,A computer-assisted proof of Kuperberg's six-cylinder conjecture,2026-07-27T17:32:59+00:00,math.CO,2.0,L0,0,https://arxiv.org/pdf/2607.24691v2
+2607.24687,Sharp continuity of quantum conditional entropy,2026-07-27T17:26:52+00:00,quant-ph,2.0,L0,0,https://arxiv.org/pdf/2607.24687v1
+2607.23916,Recursive Governance: A Graph-Theoretic Framework for Risk Propagation and Drift Detection in Agentic AI Systems,2026-07-27T01:13:48+00:00,math.NA,2.0,L0,0,https://arxiv.org/pdf/2607.23916v1
+2607.23836,Elementary Symmetric Polynomial Inequalities for Centered Vectors and Matrices,2026-07-26T20:42:39+00:00,math.CO,2.0,L0,0,https://arxiv.org/pdf/2607.23836v1
+2607.23307,Digesting the proof of the sharp thin-shell inequality,2026-07-25T17:48:30+00:00,math.MG,2.0,L0,0,https://arxiv.org/pdf/2607.23307v1
+2607.21579,Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\geq 4$,2026-07-23T17:56:05+00:00,math.OC,2.0,L0,0,https://arxiv.org/pdf/2607.21579v1
+2607.16597,"FST.ai 2.5: Explainable and Uncertainty-Aware AI for Olympic and Para-Taekwondo Decision Support, Athlete Digital Twins, and Federation-Scale Analytics",2026-07-18T02:32:44+00:00,cs.AI,2.0,L0,0,https://arxiv.org/pdf/2607.16597v1
+2607.13567,Global Bifurcation and the Constructive Existence of Overhanging Periodic Steady Water Waves,2026-07-15T08:06:19+00:00,math.AP,2.0,L0,0,https://arxiv.org/pdf/2607.13567v1
+2607.09168,Gårding's Theorem for Posynomials,2026-07-10T07:52:56+00:00,cs.DS,2.0,L0,0,https://arxiv.org/pdf/2607.09168v2
+2607.04376,A slope-unstable bundle on a surface with 1-homogeneous projectivization,2026-07-05T16:09:45+00:00,math.AG,2.0,L0,0,https://arxiv.org/pdf/2607.04376v1
+2607.00708,An equivariant fixed-level Demailly identity for Fano manifolds,2026-07-01T09:57:44+00:00,math.AG,2.0,L0,0,https://arxiv.org/pdf/2607.00708v1
+2607.28711,The complete set of noble polyhedra,2026-07-30T17:16:34+00:00,math.CO,1.0,L0,0,https://arxiv.org/pdf/2607.28711v1
+2607.28194,Finite-time blow-up for the mass-critical half-wave equation with negative energy,2026-07-30T13:32:08+00:00,math.AP,1.0,L0,0,https://arxiv.org/pdf/2607.28194v1
+2607.26363,Neoplatonic solids,2026-07-29T00:40:20+00:00,math.MG,1.0,L0,0,https://arxiv.org/pdf/2607.26363v1
+2607.19148,Lagrange points of the restricted three-body problem in spaces of constant curvature,2026-07-21T14:44:56+00:00,math-ph,1.0,L0,0,https://arxiv.org/pdf/2607.19148v1
+2607.18502,From Regional Topology to Point-Class Topology in Tarski's Geometry of Solids,2026-07-20T20:50:37+00:00,math.LO,1.0,L0,0,https://arxiv.org/pdf/2607.18502v1
+2607.15256,Analytic finite-rank corrections for singularly weighted estimates in a computer-assisted proof of 3D Euler singularity,2026-07-16T17:51:23+00:00,math.AP,1.0,L0,0,https://arxiv.org/pdf/2607.15256v1
+2607.11010,The storage capacity of the Ising perceptron: verification of the outstanding numerical conditions,2026-07-13T02:23:05+00:00,math.PR,1.0,L0,0,https://arxiv.org/pdf/2607.11010v1
+2606.05953,A Proof in Coq that Core Logic is not Paraconsistent,2026-06-04T09:52:39+00:00,math.LO,1.0,L0,0,https://arxiv.org/pdf/2606.05953v3
+2511.16705,A Coq-based Axiomatization of Tarski's Mereogeometry,2025-11-19T21:03:09+00:00,cs.LO,1.0,L0,0,https://arxiv.org/pdf/2511.16705v1
