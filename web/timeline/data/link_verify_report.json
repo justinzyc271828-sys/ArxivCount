@@ -1,0 +1,44 @@
+{
+  "checked": 62,
+  "ok_abs": 62,
+  "ok_pdf": 62,
+  "bad_abs": [],
+  "canon_links": [
+    {
+      "id": "minerva",
+      "url": "https://arxiv.org/abs/2206.14858"
+    },
+    {
+      "id": "chatgpt",
+      "url": "https://openai.com/blog/chatgpt"
+    },
+    {
+      "id": "gpt4",
+      "url": "https://openai.com/research/gpt-4"
+    },
+    {
+      "id": "alphageometry",
+      "url": "https://deepmind.google/discover/blog/alphageometry/"
+    },
+    {
+      "id": "alphaproof",
+      "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/"
+    },
+    {
+      "id": "lean_ai_wave",
+      "url": "https://lean-lang.org/"
+    },
+    {
+      "id": "formal_open_problems",
+      "url": "https://leanprover-community.github.io/"
+    },
+    {
+      "id": "erdos_1196",
+      "url": "https://arxiv.org/abs/2605.00301"
+    },
+    {
+      "id": "unit_distance",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+    }
+  ]
+}

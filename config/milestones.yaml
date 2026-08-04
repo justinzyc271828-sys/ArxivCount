@@ -32,6 +32,8 @@ milestones:
     kind: system
     phase: prehistory
     note: "Quantitative reasoning LM; still mostly benchmarks, not research proofs."
+    links:
+      - "https://arxiv.org/abs/2206.14858"
 
   - id: chatgpt
     date: "2022-11-30"
@@ -39,6 +41,8 @@ milestones:
     kind: model
     phase: mass_llm
     note: "Mass adoption begins; flood of writing-help mentions and early math experiments."
+    links:
+      - "https://openai.com/blog/chatgpt"
 
   - id: gpt4
     date: "2023-03-14"
@@ -46,6 +50,8 @@ milestones:
     kind: model
     phase: mass_llm
     note: "Stronger informal math demos; still unreliable for research claims."
+    links:
+      - "https://openai.com/research/gpt-4"
 
   - id: alphageometry
     date: "2024-01-17"
@@ -53,6 +59,8 @@ milestones:
     kind: system
     phase: olympiad_formal
     note: "Olympiad geometry; neuro-symbolic template for later research systems."
+    links:
+      - "https://deepmind.google/discover/blog/alphageometry/"
 
   - id: alphaproof
     date: "2024-07-25"
@@ -60,6 +68,8 @@ milestones:
     kind: system
     phase: olympiad_formal
     note: "Formal theorem proving at IMO scale; Lean as verification backbone."
+    links:
+      - "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/"
 
   - id: lean_ai_wave
     date: "2025-01-01"
@@ -67,6 +77,8 @@ milestones:
     kind: trend
     phase: research_entry
     note: "Autoformalization / agentic Lean starts showing research-adjacent use."
+    links:
+      - "https://lean-lang.org/"
 
   - id: erdos_1196
     date: "2026-04-13"
@@ -95,3 +107,5 @@ milestones:
     kind: trend
     phase: open_problem_wave
     note: "Cluster of Erdős-problem and formalized AI proofs in early–mid 2026."
+    links:
+      - "https://leanprover-community.github.io/"

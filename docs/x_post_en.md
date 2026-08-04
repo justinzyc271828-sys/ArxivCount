@@ -1,45 +1,50 @@
-# X (Twitter) — English post drafts
+# X (Twitter) — English posts (refined dual-track)
 
-Replace `LINK` with your live timeline URL when ready  
-(e.g. GitHub Pages: `https://justinzyc271828-sys.github.io/...` or repo Pages).
-
----
-
-## Option A — Single post (recommended)
-
-I got curious how far AI has actually penetrated mathematical research — not vibes, just what shows up on arXiv.
-
-So I built a small project: scrape/filter `math.*` preprints that mention AI/LLMs/formal tools, grade contribution from “writing help” to “material / open-problem level,” divide by yearly math volume, and put the story on an interactive timeline.
-
-Early takeaway: the **ecosystem** grows earlier; **strict (material) impact claims** really show up around 2025–2026 — still a thin slice of all math papers, but a clear structural shift.
-
-Browse with ← → : LINK
-
-#arXiv #AI #Mathematics
+Live timeline: https://justinzyc271828-sys.github.io/ArxivCount/  
+Repo: https://github.com/justinzyc271828-sys/ArxivCount  
 
 ---
 
-## Option B — Short thread (3 posts)
+## Longer post (recommended)
+
+I got curious how deep AI has actually gone into mathematical research — not the hype cycle, just what you can measure on arXiv.
+
+So I built a small site that walks through an interactive timeline of AI-in-math on `math.*` preprints. Roughly, I sort the interesting cases into **two tracks**:
+
+1. **Core contribution** — AI is material to a real mathematical claim (new result, counterexample, open-problem writeup, etc.).
+2. **Rigorous process** — AI joins the strict pipeline (formalization, machine-checked proofs, verification steps) even when the headline isn’t “AI solved X.”
+
+I also divide those counts by yearly arXiv math volume, so you can talk about **penetration**, not only raw growth. Absolute rates are still tiny; the more interesting signal is the **timing** — tools earlier, stricter “this actually moved the math” claims clustering harder in 2025–2026.
+
+Flip milestones with ← → here:  
+https://justinzyc271828-sys.github.io/ArxivCount/
+
+Code & method: https://github.com/justinzyc271828-sys/ArxivCount  
+
+#arXiv #AI #Mathematics #OpenScience
+
+---
+
+## Shorter variant
+
+Curious about AI’s real footprint in math, I built a small arXiv timeline. Two buckets: **core contributions** (material to a math result) vs **rigorous process** (formalization / verification). Plus penetration vs all `math.*` submissions.
+
+Browse with arrow keys: https://justinzyc271828-sys.github.io/ArxivCount/
+
+---
+
+## Thread (3)
 
 **1/**  
-Curious about AI’s real footprint in math research, I built a small open dashboard on arXiv `math.*`: contribution tiers + math-total denominator + an interactive milestone timeline.
+I wanted a calmer answer to “how far has AI penetrated math research?” So I made a tiny interactive timeline over arXiv `math.*` — not vibes, just a disclosed proxy you can click through.
 
 **2/**  
-Method in one line: wide net → full-text pass → C0–C4 grades (assistive vs material) → per-10k penetration against yearly `math.*` submissions. It’s a **disclosed proxy**, not a census.
+I split cases into two tracks:  
+• **Core contribution** — AI material to a real math claim  
+• **Rigorous process** — AI in formal / verification steps  
+Then normalize by yearly math submission volume.
 
 **3/**  
-Punchline for now: absolute penetration is still tiny; the interesting part is the **timing** — tools first, then a 2025–26 wave of stricter “AI actually moved the math” claims.
-
-Timeline (← → to flip events): LINK
-
----
-
-## Option C — Ultra-short
-
-Built a tiny web timeline of AI-in-math on arXiv after wondering how deep the “AI math” wave really is. Counts, penetration vs all `math.*`, milestones you can flip with arrow keys: LINK
-
----
-
-## Optional hashtags
-
-`#arXiv` `#MachineLearning` `#Math` `#OpenScience` `#LLM`
+Takeaway for now: penetration is still thin, but the structure shifted — ecosystem first, stricter claims more in 2025–26.  
+Timeline: https://justinzyc271828-sys.github.io/ArxivCount/  
+Repo: https://github.com/justinzyc271828-sys/ArxivCount  

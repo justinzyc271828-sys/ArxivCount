@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:19:38+00:00",
+  "generated_at": "2026-08-04T14:28:40+00:00",
   "project": {
     "name": "ArxivCount",
     "title": "AI-Assisted Math Proofs on arXiv",
@@ -342,10 +342,14 @@
       "id": "minerva",
       "label": "Minerva (math LLM)",
       "note": "Quantitative reasoning LM; still mostly benchmarks, not research proofs.",
-      "arxiv_id": null,
-      "url": null,
+      "arxiv_id": "2206.14858",
+      "url": "https://arxiv.org/abs/2206.14858",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.14858.pdf",
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2022-11-30",
@@ -356,9 +360,12 @@
       "label": "ChatGPT public launch",
       "note": "Mass adoption begins; flood of writing-help mentions and early math experiments.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://openai.com/blog/chatgpt",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": false,
+      "public_track": "other"
     },
     {
       "date": "2023-03-14",
@@ -369,9 +376,12 @@
       "label": "GPT-4 era math demos",
       "note": "Stronger informal math demos; still unreliable for research claims.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://openai.com/research/gpt-4",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2024-01-17",
@@ -382,9 +392,12 @@
       "label": "AlphaGeometry",
       "note": "Olympiad geometry; neuro-symbolic template for later research systems.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://deepmind.google/discover/blog/alphageometry/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2024-07-25",
@@ -395,9 +408,12 @@
       "label": "AlphaProof / IMO-level formal proving",
       "note": "Formal theorem proving at IMO scale; Lean as verification backbone.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2025-01-01",
@@ -408,9 +424,12 @@
       "label": "Lean + LLM research formalization wave",
       "note": "Autoformalization / agentic Lean starts showing research-adjacent use.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://lean-lang.org/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2025-01-29",
@@ -430,7 +449,11 @@
       "open_problem": true,
       "open_problem_name": "Open instances of combinatorial design existence problems",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2501.17725.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-02-24",
@@ -451,7 +474,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2502.17533.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-05-22",
@@ -472,7 +499,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2505.16105.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-05-29",
@@ -492,7 +523,11 @@
       "open_problem": true,
       "open_problem_name": "Open instances of combinatorial design problems (e.g., Symmetric Weighing Matrix n=22 w=16)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2505.23881.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-06-20",
@@ -513,7 +548,11 @@
       "open_problem": true,
       "open_problem_name": "supremum of autoconvolution inequality constant c",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2506.16750.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-09-01",
@@ -534,7 +573,11 @@
       "open_problem": true,
       "open_problem_name": "Nathan Kaplan's 2014 CANT problem on largest 3-zero-sum-free subsets",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.01735.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-09-03",
@@ -554,7 +597,11 @@
       "open_problem": true,
       "open_problem_name": "Quantitative fourth-moment theorem for sums of two Wiener-Itô integrals with different parities",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.03065.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-09-14",
@@ -576,7 +623,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.11447.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-09-22",
@@ -598,7 +649,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.18057.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-09-23",
@@ -620,7 +675,11 @@
       "open_problem": true,
       "open_problem_name": "Glushkov's 1968 problem on diameter of directed Cayley graph generated by left cyclic shift and transposition (1,2)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.19162.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-09-24",
@@ -641,7 +700,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.19854.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-09-24",
@@ -662,7 +725,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.20539.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-09-30",
@@ -682,7 +749,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2509.26138.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-10-04",
@@ -704,7 +775,11 @@
       "open_problem": true,
       "open_problem_name": "Minimizing star discrepancy for finite point sets",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2510.03650.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-10-22",
@@ -725,7 +800,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős's conjecture on extending Sidon sets to perfect difference sets (Problem #707)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2510.19804.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-10-22",
@@ -747,7 +826,11 @@
       "open_problem": true,
       "open_problem_name": "Majority optimality in NICD with erasures",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.20013.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-10-23",
@@ -769,7 +852,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2510.20728.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-10-27",
@@ -790,7 +877,11 @@
       "open_problem": true,
       "open_problem_name": "Point convergence of Nesterov's accelerated gradient method",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.23513.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-10-28",
@@ -812,7 +903,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2510.24013.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-10-30",
@@ -833,7 +928,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2510.26647.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-11-03",
@@ -855,7 +954,11 @@
       "open_problem": true,
       "open_problem_name": "Various open problems including finite field Kakeya, autocorrelation inequalities, kissing numbers, etc.",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2511.02864.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-11-16",
@@ -875,7 +978,11 @@
       "open_problem": true,
       "open_problem_name": "Convergence of iterates of Nesterov's accelerated gradient method in the critical regime",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2511.12665.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-11-24",
@@ -897,7 +1004,11 @@
       "open_problem": true,
       "open_problem_name": "Minimax optimal rate for robust density estimation under Wasserstein contamination",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.18828.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-11-25",
@@ -918,7 +1029,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2512.03057.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-12-10",
@@ -940,7 +1055,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2512.09443.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-12-11",
@@ -960,7 +1079,11 @@
       "open_problem": true,
       "open_problem_name": "Monotonicity of learning curves for MLE (Gaussian variance estimation)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.10220.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-12-16",
@@ -981,7 +1104,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2512.14575.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-12-29",
@@ -1002,7 +1129,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2512.23195.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-01-01",
@@ -1013,9 +1144,12 @@
       "label": "Agentic Lean / open-problem formal results cluster",
       "note": "Cluster of Erdős-problem and formalized AI proofs in early–mid 2026.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://leanprover-community.github.io/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2026-01-12",
@@ -1036,7 +1170,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #728",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.07421.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-01-25",
@@ -1058,7 +1196,11 @@
       "open_problem": true,
       "open_problem_name": "Sphere packing in hypercubes, Heilbronn triangle problem, circle packing with maximal sum of radii, star discrepancy minimization",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2601.18005.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-01-29",
@@ -1080,7 +1222,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problems",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2601.22401.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-02-06",
@@ -1101,7 +1247,11 @@
       "open_problem": true,
       "open_problem_name": "Hypercube slicing problem (determining S(n))",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.16807.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-02-10",
@@ -1123,7 +1273,11 @@
       "open_problem": true,
       "open_problem_name": "Hexagon packing, second autocorrelation inequality, spherical codes (Tammes problem)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2602.10233.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-02-13",
@@ -1144,7 +1298,11 @@
       "open_problem": true,
       "open_problem_name": "Lagrangian smoothability of polyhedral Lagrangian surfaces with exactly four faces meeting at every vertex",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2602.13519.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-02-14",
@@ -1166,7 +1324,11 @@
       "open_problem": true,
       "open_problem_name": "ICCM Set 3 open problems (including Calabi-Yau related)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2602.13695.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-03-05",
@@ -1188,7 +1350,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.05696.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-09",
@@ -1210,7 +1376,11 @@
       "open_problem": true,
       "open_problem_name": "Minimum imbalance of Latin squares for n ≡ 1 (mod 3)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.08322.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-10",
@@ -1230,7 +1400,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.09680.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-10",
@@ -1251,7 +1425,11 @@
       "open_problem": true,
       "open_problem_name": "Ramsey numbers",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.09172.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-10",
@@ -1273,7 +1451,11 @@
       "open_problem": true,
       "open_problem_name": "Collatz conjecture",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.11066.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-16",
@@ -1294,7 +1476,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.15929.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-03-16",
@@ -1316,7 +1502,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.15770.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-03-19",
@@ -1337,7 +1527,11 @@
       "open_problem": true,
       "open_problem_name": "Manin's question on R-equivalence of diagonal cubic surface",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.19215.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-25",
@@ -1359,7 +1553,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2603.24330.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-03-30",
@@ -1380,7 +1578,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #650",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.28636.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-03-31",
@@ -1401,7 +1603,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2604.00260.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-04-13",
@@ -1414,7 +1620,11 @@
       "arxiv_id": "2605.00301",
       "url": "https://arxiv.org/abs/2605.00301",
       "contribution_tier": "C4",
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-04-23",
@@ -1435,7 +1645,11 @@
       "open_problem": true,
       "open_problem_name": "Grinstead and Roberts' 1982 question on doubly saturated Ramsey graphs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.21187.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-04-25",
@@ -1457,7 +1671,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.23468.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-04-30",
@@ -1479,7 +1697,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture 6.3 by Garamvölgyi, Jackson, and Jordán",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2604.27989.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-01",
@@ -1501,7 +1723,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #1196",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-01",
@@ -1522,7 +1748,11 @@
       "open_problem": true,
       "open_problem_name": "Zarankiewicz problem",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.01120.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-03",
@@ -1543,7 +1773,11 @@
       "open_problem": true,
       "open_problem_name": "Litvak's conjecture on Gaussian minima",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.02023.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-04",
@@ -1565,7 +1799,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.02994.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-06",
@@ -1585,7 +1823,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.05192.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-06",
@@ -1605,7 +1847,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.04810.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-08",
@@ -1627,7 +1873,11 @@
       "open_problem": true,
       "open_problem_name": "Escobar–Klein–Weigandt conjecture on Cohen–Macaulay ASM varieties",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.08033.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-12",
@@ -1648,7 +1898,11 @@
       "open_problem": true,
       "open_problem_name": "Gaussian completely monotone conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.11656.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-19",
@@ -1669,7 +1923,11 @@
       "open_problem": true,
       "open_problem_name": "Conjectures of Defant et al., Hopkins, and Sagan and Wilson",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.19979.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-19",
@@ -1690,7 +1948,11 @@
       "open_problem": true,
       "open_problem_name": "L2-stability for STFT phase retrieval",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20527.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-20",
@@ -1703,7 +1965,10 @@
       "arxiv_id": null,
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "contribution_tier": "C4",
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -1724,7 +1989,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20623.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -1744,7 +2013,11 @@
       "open_problem": true,
       "open_problem_name": "Question 1.1 of Kollár and Kovács",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20585.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -1764,7 +2037,11 @@
       "open_problem": true,
       "open_problem_name": "Question 1.1 of Ciliberto et al.",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20594.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-21",
@@ -1784,7 +2061,11 @@
       "open_problem": true,
       "open_problem_name": "Han and Jiang's question on openness of klt type in flat families",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22250.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-21",
@@ -1804,7 +2085,11 @@
       "open_problem": true,
       "open_problem_name": "Mauri-Moraga question on log Calabi-Yau pairs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22052.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-22",
@@ -1824,7 +2109,11 @@
       "open_problem": true,
       "open_problem_name": "Crandall's problem on the binary digits of the Erdős–Borwein constant",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.24160.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-22",
@@ -1846,7 +2135,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.24130.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-24",
@@ -1867,7 +2160,11 @@
       "open_problem": true,
       "open_problem_name": "Higher-mode binomial log-concavity for rank-two Chern classes (Conjectures 3.2 and 3.3 for j>2) and shifted-binomial log-concavity for Plücker coefficients (Conjecture 6.1)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2605.25271.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-26",
@@ -1887,7 +2184,11 @@
       "open_problem": true,
       "open_problem_name": "Bombari's question on subgaussianity of sign-quantized linear maps",
       "milestone_candidate": false,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27563.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-27",
@@ -1908,7 +2209,11 @@
       "open_problem": true,
       "open_problem_name": "Aluffi–Chen–Marcolli conjecture on real-rootedness of Poincaré polynomials of M_{0,n}",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.29151.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-01",
@@ -1928,7 +2233,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture on D_1 = {1,3,15} for generalized Euler totient function",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.01633.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-03",
@@ -1948,7 +2257,11 @@
       "open_problem": true,
       "open_problem_name": "Andrews-Dhar bijective proof problem",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.05117.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-03",
@@ -1968,7 +2281,11 @@
       "open_problem": true,
       "open_problem_name": "Optimal first-order oracle complexity for higher-order smooth nonconvex optimization",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.05438.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-04",
@@ -1989,7 +2306,11 @@
       "open_problem": true,
       "open_problem_name": "R(B8,B10)",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.05629.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-08",
@@ -2010,7 +2331,11 @@
       "open_problem": true,
       "open_problem_name": "Optimality of threshold policy for queueing system with one fast and two slow servers",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22580.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-08",
@@ -2031,7 +2356,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.09674.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-09",
@@ -2053,7 +2382,11 @@
       "open_problem": true,
       "open_problem_name": "Neural Jacobian Conjecture (NJC) for N ≥ n+2",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.10806.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-10",
@@ -2073,7 +2406,11 @@
       "open_problem": true,
       "open_problem_name": "Last-iterate convergence of OMWU for smooth convex-concave saddle-point problems",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.11773.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-11",
@@ -2095,7 +2432,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.13925.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-13",
@@ -2116,7 +2457,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős–Graham problem on Egyptian fractions with restricted denominators (ω=2 case)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.15159.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-14",
@@ -2137,7 +2482,11 @@
       "open_problem": true,
       "open_problem_name": "degree/diameter problem",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.15860.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-15",
@@ -2159,7 +2508,11 @@
       "open_problem": true,
       "open_problem_name": "Near-quadratic Elekes–Rónyai expander conjecture over R",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.16738.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-16",
@@ -2181,7 +2534,11 @@
       "open_problem": true,
       "open_problem_name": "Yun–Sra–Jadbabaie SS–RS–GD inequalities",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22620.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-16",
@@ -2201,7 +2558,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.18110.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-18",
@@ -2223,7 +2584,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.20439.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-19",
@@ -2244,7 +2609,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.21583.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-21",
@@ -2266,7 +2635,11 @@
       "open_problem": true,
       "open_problem_name": "KTV conjecture (Kannan-Tetali-Vempala) for binary fixed-margin swap chain",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.22636.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-21",
@@ -2287,7 +2660,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture 3.4 of Zhi-Wei Sun",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.22548.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-22",
@@ -2309,7 +2686,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2606.23821.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-28",
@@ -2331,7 +2712,11 @@
       "open_problem": true,
       "open_problem_name": "Worst-case last-iterate convergence of randomized Kaczmarz",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29593.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-29",
@@ -2353,7 +2738,11 @@
       "open_problem": true,
       "open_problem_name": "FGG conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29687.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-01",
@@ -2374,7 +2763,11 @@
       "open_problem": true,
       "open_problem_name": "Jin-Rubinstein Problem 1.2",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.00708.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-02",
@@ -2395,7 +2788,11 @@
       "open_problem": true,
       "open_problem_name": "Homeomorphism of Hilbertian balls and their relatives",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.01924.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-03",
@@ -2416,7 +2813,11 @@
       "open_problem": true,
       "open_problem_name": "Signed BAR uniqueness conjecture (Dai-Dieker open problem)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.03639.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-06",
@@ -2437,7 +2838,11 @@
       "open_problem": true,
       "open_problem_name": "Moraga's conjecture on odd-dimensional rank bound for abelian p-group actions",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.04891.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-07",
@@ -2458,7 +2863,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture by Calderbank–Daubechies–Freeman–Freeman on stable phase retrieval for independent random variables",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.06693.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-09",
@@ -2480,7 +2889,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős–Szemerédi sum-product conjecture over R",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.20525.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-09",
@@ -2501,7 +2914,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2607.08931.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-13",
@@ -2521,7 +2938,11 @@
       "open_problem": true,
       "open_problem_name": "FDR control for correlated two-sided Gaussian tests",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.12208.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-13",
@@ -2542,7 +2963,11 @@
       "open_problem": true,
       "open_problem_name": "Joint q-moment tower beyond two dual particles",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.11376.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-15",
@@ -2564,7 +2989,11 @@
       "open_problem": true,
       "open_problem_name": "Online Spencer conjecture (Conjecture 1 of [8])",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.14238.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-16",
@@ -2584,7 +3013,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2607.15034.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-20",
@@ -2604,7 +3037,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2607.18174.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -2624,7 +3061,11 @@
       "open_problem": true,
       "open_problem_name": "Batyrev's conjecture on non-negativity of stringy Hodge numbers",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.19184.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -2644,7 +3085,11 @@
       "open_problem": true,
       "open_problem_name": "Deré's conjecture (Conjecture 1.1)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.19513.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -2664,7 +3109,11 @@
       "open_problem": true,
       "open_problem_name": "Balabdaoui and Wellner's conjecture on strong log-concavity of Chernoff's density",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.18619.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-23",
@@ -2685,7 +3134,11 @@
       "open_problem": true,
       "open_problem_name": "Shannon capacity of odd cycles",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2607.21517.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-23",
@@ -2706,7 +3159,11 @@
       "open_problem": true,
       "open_problem_name": "Stanley's conjecture on Schur positivity of claw-free graphs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.21508.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-25",
@@ -2728,7 +3185,11 @@
       "open_problem": true,
       "open_problem_name": "Variance conjecture (thin-shell inequality)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23307.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-26",
@@ -2749,7 +3210,11 @@
       "open_problem": true,
       "open_problem_name": "Monical-Tokcan-Yong Conjecture 2.25",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23828.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-26",
@@ -2770,7 +3235,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2607.23836.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-27",
@@ -2790,7 +3259,11 @@
       "open_problem": true,
       "open_problem_name": "Feige's conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.24528.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-27",
@@ -2812,7 +3285,11 @@
       "open_problem": true,
       "open_problem_name": "Bellman's lost-in-a-forest problem",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.24483.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-27",
@@ -2833,7 +3310,11 @@
       "open_problem": true,
       "open_problem_name": "Feige's conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23980.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-29",
@@ -2853,7 +3334,11 @@
       "open_problem": true,
       "open_problem_name": "Question of Ciliberto, Miranda, and Roé on the number of common flex lines in a general pencil of cubics",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.26396.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-29",
@@ -2874,7 +3359,11 @@
       "open_problem": true,
       "open_problem_name": "Lukic conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.26419.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-29",
@@ -2894,7 +3383,11 @@
       "open_problem": true,
       "open_problem_name": "Removing torsion-free hypothesis in positivity theorem on Deligne-Mumford stacks",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2607.26989.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-01",
@@ -2915,7 +3408,11 @@
       "open_problem": true,
       "open_problem_name": "Ehrhart positivity of Schubitopes",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.00377.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-02",
@@ -2937,7 +3434,11 @@
       "open_problem": true,
       "open_problem_name": "Ehrhart's volume conjecture (equality case)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.01040.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-02",
@@ -2958,7 +3459,11 @@
       "open_problem": true,
       "open_problem_name": "Uniform Gromov–Hausdorff gap problem",
       "milestone_candidate": false,
-      "highlight": false
+      "highlight": false,
+      "pdf_url": "https://arxiv.org/pdf/2608.01156.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -2980,7 +3485,11 @@
       "open_problem": true,
       "open_problem_name": "Connes' rigidity conjecture for ICC property (T) groups",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02327.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -3001,7 +3510,11 @@
       "open_problem": false,
       "open_problem_name": "Superexponential growth of multicolor Ramsey numbers for odd cycles",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02537.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -3023,7 +3536,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.01673.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     }
   ],
   "navigable": [
@@ -3035,10 +3552,14 @@
       "id": "minerva",
       "label": "Minerva (math LLM)",
       "note": "Quantitative reasoning LM; still mostly benchmarks, not research proofs.",
-      "arxiv_id": null,
-      "url": null,
+      "arxiv_id": "2206.14858",
+      "url": "https://arxiv.org/abs/2206.14858",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.14858.pdf",
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2022-11-30",
@@ -3049,9 +3570,12 @@
       "label": "ChatGPT public launch",
       "note": "Mass adoption begins; flood of writing-help mentions and early math experiments.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://openai.com/blog/chatgpt",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": false,
+      "public_track": "other"
     },
     {
       "date": "2023-03-14",
@@ -3062,9 +3586,12 @@
       "label": "GPT-4 era math demos",
       "note": "Stronger informal math demos; still unreliable for research claims.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://openai.com/research/gpt-4",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2024-01-17",
@@ -3075,9 +3602,12 @@
       "label": "AlphaGeometry",
       "note": "Olympiad geometry; neuro-symbolic template for later research systems.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://deepmind.google/discover/blog/alphageometry/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2024-07-25",
@@ -3088,9 +3618,12 @@
       "label": "AlphaProof / IMO-level formal proving",
       "note": "Formal theorem proving at IMO scale; Lean as verification backbone.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2025-01-01",
@@ -3101,9 +3634,12 @@
       "label": "Lean + LLM research formalization wave",
       "note": "Autoformalization / agentic Lean starts showing research-adjacent use.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://lean-lang.org/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2025-09-22",
@@ -3125,7 +3661,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.18057.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-10-22",
@@ -3147,7 +3687,11 @@
       "open_problem": true,
       "open_problem_name": "Majority optimality in NICD with erasures",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.20013.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-10-27",
@@ -3168,7 +3712,11 @@
       "open_problem": true,
       "open_problem_name": "Point convergence of Nesterov's accelerated gradient method",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.23513.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-11-24",
@@ -3190,7 +3738,11 @@
       "open_problem": true,
       "open_problem_name": "Minimax optimal rate for robust density estimation under Wasserstein contamination",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.18828.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-12-11",
@@ -3210,7 +3762,11 @@
       "open_problem": true,
       "open_problem_name": "Monotonicity of learning curves for MLE (Gaussian variance estimation)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.10220.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-01-01",
@@ -3221,9 +3777,12 @@
       "label": "Agentic Lean / open-problem formal results cluster",
       "note": "Cluster of Erdős-problem and formalized AI proofs in early–mid 2026.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://leanprover-community.github.io/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2026-01-12",
@@ -3244,7 +3803,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #728",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.07421.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-02-06",
@@ -3265,7 +3828,11 @@
       "open_problem": true,
       "open_problem_name": "Hypercube slicing problem (determining S(n))",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.16807.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-10",
@@ -3285,7 +3852,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.09680.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-19",
@@ -3306,7 +3877,11 @@
       "open_problem": true,
       "open_problem_name": "Manin's question on R-equivalence of diagonal cubic surface",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.19215.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-30",
@@ -3327,7 +3902,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #650",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.28636.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-04-13",
@@ -3340,7 +3919,11 @@
       "arxiv_id": "2605.00301",
       "url": "https://arxiv.org/abs/2605.00301",
       "contribution_tier": "C4",
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-04-23",
@@ -3361,7 +3944,11 @@
       "open_problem": true,
       "open_problem_name": "Grinstead and Roberts' 1982 question on doubly saturated Ramsey graphs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.21187.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-04-25",
@@ -3383,7 +3970,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.23468.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-01",
@@ -3405,7 +3996,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #1196",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-08",
@@ -3427,7 +4022,11 @@
       "open_problem": true,
       "open_problem_name": "Escobar–Klein–Weigandt conjecture on Cohen–Macaulay ASM varieties",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.08033.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-12",
@@ -3448,7 +4047,11 @@
       "open_problem": true,
       "open_problem_name": "Gaussian completely monotone conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.11656.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-19",
@@ -3469,7 +4072,11 @@
       "open_problem": true,
       "open_problem_name": "Conjectures of Defant et al., Hopkins, and Sagan and Wilson",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.19979.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-19",
@@ -3490,7 +4097,11 @@
       "open_problem": true,
       "open_problem_name": "L2-stability for STFT phase retrieval",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20527.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-20",
@@ -3503,7 +4114,10 @@
       "arxiv_id": null,
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "contribution_tier": "C4",
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -3524,7 +4138,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20623.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -3544,7 +4162,11 @@
       "open_problem": true,
       "open_problem_name": "Question 1.1 of Kollár and Kovács",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20585.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -3564,7 +4186,11 @@
       "open_problem": true,
       "open_problem_name": "Question 1.1 of Ciliberto et al.",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20594.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-21",
@@ -3584,7 +4210,11 @@
       "open_problem": true,
       "open_problem_name": "Han and Jiang's question on openness of klt type in flat families",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22250.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-21",
@@ -3604,7 +4234,11 @@
       "open_problem": true,
       "open_problem_name": "Mauri-Moraga question on log Calabi-Yau pairs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22052.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-22",
@@ -3624,7 +4258,11 @@
       "open_problem": true,
       "open_problem_name": "Crandall's problem on the binary digits of the Erdős–Borwein constant",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.24160.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-26",
@@ -3644,7 +4282,11 @@
       "open_problem": true,
       "open_problem_name": "Bombari's question on subgaussianity of sign-quantized linear maps",
       "milestone_candidate": false,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27563.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-27",
@@ -3665,7 +4307,11 @@
       "open_problem": true,
       "open_problem_name": "Aluffi–Chen–Marcolli conjecture on real-rootedness of Poincaré polynomials of M_{0,n}",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.29151.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-03",
@@ -3685,7 +4331,11 @@
       "open_problem": true,
       "open_problem_name": "Andrews-Dhar bijective proof problem",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.05117.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-03",
@@ -3705,7 +4355,11 @@
       "open_problem": true,
       "open_problem_name": "Optimal first-order oracle complexity for higher-order smooth nonconvex optimization",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.05438.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-08",
@@ -3726,7 +4380,11 @@
       "open_problem": true,
       "open_problem_name": "Optimality of threshold policy for queueing system with one fast and two slow servers",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22580.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-10",
@@ -3746,7 +4404,11 @@
       "open_problem": true,
       "open_problem_name": "Last-iterate convergence of OMWU for smooth convex-concave saddle-point problems",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.11773.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-13",
@@ -3767,7 +4429,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős–Graham problem on Egyptian fractions with restricted denominators (ω=2 case)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.15159.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-15",
@@ -3789,7 +4455,11 @@
       "open_problem": true,
       "open_problem_name": "Near-quadratic Elekes–Rónyai expander conjecture over R",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.16738.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-16",
@@ -3811,7 +4481,11 @@
       "open_problem": true,
       "open_problem_name": "Yun–Sra–Jadbabaie SS–RS–GD inequalities",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22620.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-21",
@@ -3833,7 +4507,11 @@
       "open_problem": true,
       "open_problem_name": "KTV conjecture (Kannan-Tetali-Vempala) for binary fixed-margin swap chain",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.22636.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-21",
@@ -3854,7 +4532,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture 3.4 of Zhi-Wei Sun",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.22548.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-28",
@@ -3876,7 +4558,11 @@
       "open_problem": true,
       "open_problem_name": "Worst-case last-iterate convergence of randomized Kaczmarz",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29593.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-29",
@@ -3898,7 +4584,11 @@
       "open_problem": true,
       "open_problem_name": "FGG conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29687.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-01",
@@ -3919,7 +4609,11 @@
       "open_problem": true,
       "open_problem_name": "Jin-Rubinstein Problem 1.2",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.00708.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-02",
@@ -3940,7 +4634,11 @@
       "open_problem": true,
       "open_problem_name": "Homeomorphism of Hilbertian balls and their relatives",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.01924.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-03",
@@ -3961,7 +4659,11 @@
       "open_problem": true,
       "open_problem_name": "Signed BAR uniqueness conjecture (Dai-Dieker open problem)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.03639.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-06",
@@ -3982,7 +4684,11 @@
       "open_problem": true,
       "open_problem_name": "Moraga's conjecture on odd-dimensional rank bound for abelian p-group actions",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.04891.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-07",
@@ -4003,7 +4709,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture by Calderbank–Daubechies–Freeman–Freeman on stable phase retrieval for independent random variables",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.06693.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-09",
@@ -4025,7 +4735,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős–Szemerédi sum-product conjecture over R",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.20525.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-13",
@@ -4045,7 +4759,11 @@
       "open_problem": true,
       "open_problem_name": "FDR control for correlated two-sided Gaussian tests",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.12208.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-13",
@@ -4066,7 +4784,11 @@
       "open_problem": true,
       "open_problem_name": "Joint q-moment tower beyond two dual particles",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.11376.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-15",
@@ -4088,7 +4810,11 @@
       "open_problem": true,
       "open_problem_name": "Online Spencer conjecture (Conjecture 1 of [8])",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.14238.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -4108,7 +4834,11 @@
       "open_problem": true,
       "open_problem_name": "Batyrev's conjecture on non-negativity of stringy Hodge numbers",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.19184.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -4128,7 +4858,11 @@
       "open_problem": true,
       "open_problem_name": "Deré's conjecture (Conjecture 1.1)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.19513.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -4148,7 +4882,11 @@
       "open_problem": true,
       "open_problem_name": "Balabdaoui and Wellner's conjecture on strong log-concavity of Chernoff's density",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.18619.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-23",
@@ -4169,7 +4907,11 @@
       "open_problem": true,
       "open_problem_name": "Stanley's conjecture on Schur positivity of claw-free graphs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.21508.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-25",
@@ -4191,7 +4933,11 @@
       "open_problem": true,
       "open_problem_name": "Variance conjecture (thin-shell inequality)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23307.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-26",
@@ -4212,7 +4958,11 @@
       "open_problem": true,
       "open_problem_name": "Monical-Tokcan-Yong Conjecture 2.25",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23828.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-27",
@@ -4232,7 +4982,11 @@
       "open_problem": true,
       "open_problem_name": "Feige's conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.24528.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-27",
@@ -4254,7 +5008,11 @@
       "open_problem": true,
       "open_problem_name": "Bellman's lost-in-a-forest problem",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.24483.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-27",
@@ -4275,7 +5033,11 @@
       "open_problem": true,
       "open_problem_name": "Feige's conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23980.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-29",
@@ -4295,7 +5057,11 @@
       "open_problem": true,
       "open_problem_name": "Question of Ciliberto, Miranda, and Roé on the number of common flex lines in a general pencil of cubics",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.26396.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-29",
@@ -4316,7 +5082,11 @@
       "open_problem": true,
       "open_problem_name": "Lukic conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.26419.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-01",
@@ -4337,7 +5107,11 @@
       "open_problem": true,
       "open_problem_name": "Ehrhart positivity of Schubitopes",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.00377.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-02",
@@ -4359,7 +5133,11 @@
       "open_problem": true,
       "open_problem_name": "Ehrhart's volume conjecture (equality case)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.01040.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -4381,7 +5159,11 @@
       "open_problem": true,
       "open_problem_name": "Connes' rigidity conjecture for ICC property (T) groups",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02327.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -4402,7 +5184,11 @@
       "open_problem": false,
       "open_problem_name": "Superexponential growth of multicolor Ramsey numbers for odd cycles",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02537.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -4424,7 +5210,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.01673.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     }
   ],
   "highlights": [
@@ -4436,10 +5226,14 @@
       "id": "minerva",
       "label": "Minerva (math LLM)",
       "note": "Quantitative reasoning LM; still mostly benchmarks, not research proofs.",
-      "arxiv_id": null,
-      "url": null,
+      "arxiv_id": "2206.14858",
+      "url": "https://arxiv.org/abs/2206.14858",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2206.14858.pdf",
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2022-11-30",
@@ -4450,9 +5244,12 @@
       "label": "ChatGPT public launch",
       "note": "Mass adoption begins; flood of writing-help mentions and early math experiments.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://openai.com/blog/chatgpt",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": false,
+      "public_track": "other"
     },
     {
       "date": "2023-03-14",
@@ -4463,9 +5260,12 @@
       "label": "GPT-4 era math demos",
       "note": "Stronger informal math demos; still unreliable for research claims.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://openai.com/research/gpt-4",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2024-01-17",
@@ -4476,9 +5276,12 @@
       "label": "AlphaGeometry",
       "note": "Olympiad geometry; neuro-symbolic template for later research systems.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://deepmind.google/discover/blog/alphageometry/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2024-07-25",
@@ -4489,9 +5292,12 @@
       "label": "AlphaProof / IMO-level formal proving",
       "note": "Formal theorem proving at IMO scale; Lean as verification backbone.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2025-01-01",
@@ -4502,9 +5308,12 @@
       "label": "Lean + LLM research formalization wave",
       "note": "Autoformalization / agentic Lean starts showing research-adjacent use.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://lean-lang.org/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2025-09-22",
@@ -4526,7 +5335,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2509.18057.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-10-22",
@@ -4548,7 +5361,11 @@
       "open_problem": true,
       "open_problem_name": "Majority optimality in NICD with erasures",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.20013.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2025-10-27",
@@ -4569,7 +5386,11 @@
       "open_problem": true,
       "open_problem_name": "Point convergence of Nesterov's accelerated gradient method",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2510.23513.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-11-24",
@@ -4591,7 +5412,11 @@
       "open_problem": true,
       "open_problem_name": "Minimax optimal rate for robust density estimation under Wasserstein contamination",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2511.18828.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2025-12-11",
@@ -4611,7 +5436,11 @@
       "open_problem": true,
       "open_problem_name": "Monotonicity of learning curves for MLE (Gaussian variance estimation)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2512.10220.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-01-01",
@@ -4622,9 +5451,12 @@
       "label": "Agentic Lean / open-problem formal results cluster",
       "note": "Cluster of Erdős-problem and formalized AI proofs in early–mid 2026.",
       "arxiv_id": null,
-      "url": null,
+      "url": "https://leanprover-community.github.io/",
       "contribution_tier": null,
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": false,
+      "is_rigorous_process": true,
+      "public_track": "rigorous"
     },
     {
       "date": "2026-01-12",
@@ -4645,7 +5477,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #728",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2601.07421.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-02-06",
@@ -4666,7 +5502,11 @@
       "open_problem": true,
       "open_problem_name": "Hypercube slicing problem (determining S(n))",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2602.16807.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-10",
@@ -4686,7 +5526,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.09680.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-19",
@@ -4707,7 +5551,11 @@
       "open_problem": true,
       "open_problem_name": "Manin's question on R-equivalence of diagonal cubic surface",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.19215.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-03-30",
@@ -4728,7 +5576,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #650",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2603.28636.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-04-13",
@@ -4741,7 +5593,11 @@
       "arxiv_id": "2605.00301",
       "url": "https://arxiv.org/abs/2605.00301",
       "contribution_tier": "C4",
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-04-23",
@@ -4762,7 +5618,11 @@
       "open_problem": true,
       "open_problem_name": "Grinstead and Roberts' 1982 question on doubly saturated Ramsey graphs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.21187.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-04-25",
@@ -4784,7 +5644,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2604.23468.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-01",
@@ -4806,7 +5670,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős Problem #1196",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.00301.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-08",
@@ -4828,7 +5696,11 @@
       "open_problem": true,
       "open_problem_name": "Escobar–Klein–Weigandt conjecture on Cohen–Macaulay ASM varieties",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.08033.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-12",
@@ -4849,7 +5721,11 @@
       "open_problem": true,
       "open_problem_name": "Gaussian completely monotone conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.11656.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-19",
@@ -4870,7 +5746,11 @@
       "open_problem": true,
       "open_problem_name": "Conjectures of Defant et al., Hopkins, and Sagan and Wilson",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.19979.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-19",
@@ -4891,7 +5771,11 @@
       "open_problem": true,
       "open_problem_name": "L2-stability for STFT phase retrieval",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20527.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-05-20",
@@ -4904,7 +5788,10 @@
       "arxiv_id": null,
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "contribution_tier": "C4",
-      "highlight": true
+      "highlight": true,
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -4925,7 +5812,11 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20623.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -4945,7 +5836,11 @@
       "open_problem": true,
       "open_problem_name": "Question 1.1 of Kollár and Kovács",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20585.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-20",
@@ -4965,7 +5860,11 @@
       "open_problem": true,
       "open_problem_name": "Question 1.1 of Ciliberto et al.",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.20594.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-21",
@@ -4985,7 +5884,11 @@
       "open_problem": true,
       "open_problem_name": "Han and Jiang's question on openness of klt type in flat families",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22250.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-21",
@@ -5005,7 +5908,11 @@
       "open_problem": true,
       "open_problem_name": "Mauri-Moraga question on log Calabi-Yau pairs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.22052.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-22",
@@ -5025,7 +5932,11 @@
       "open_problem": true,
       "open_problem_name": "Crandall's problem on the binary digits of the Erdős–Borwein constant",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.24160.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-26",
@@ -5045,7 +5956,11 @@
       "open_problem": true,
       "open_problem_name": "Bombari's question on subgaussianity of sign-quantized linear maps",
       "milestone_candidate": false,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.27563.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-05-27",
@@ -5066,7 +5981,11 @@
       "open_problem": true,
       "open_problem_name": "Aluffi–Chen–Marcolli conjecture on real-rootedness of Poincaré polynomials of M_{0,n}",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2605.29151.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-03",
@@ -5086,7 +6005,11 @@
       "open_problem": true,
       "open_problem_name": "Andrews-Dhar bijective proof problem",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.05117.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-03",
@@ -5106,7 +6029,11 @@
       "open_problem": true,
       "open_problem_name": "Optimal first-order oracle complexity for higher-order smooth nonconvex optimization",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.05438.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-08",
@@ -5127,7 +6054,11 @@
       "open_problem": true,
       "open_problem_name": "Optimality of threshold policy for queueing system with one fast and two slow servers",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22580.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-10",
@@ -5147,7 +6078,11 @@
       "open_problem": true,
       "open_problem_name": "Last-iterate convergence of OMWU for smooth convex-concave saddle-point problems",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.11773.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-13",
@@ -5168,7 +6103,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős–Graham problem on Egyptian fractions with restricted denominators (ω=2 case)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.15159.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-15",
@@ -5190,7 +6129,11 @@
       "open_problem": true,
       "open_problem_name": "Near-quadratic Elekes–Rónyai expander conjecture over R",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.16738.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-16",
@@ -5212,7 +6155,11 @@
       "open_problem": true,
       "open_problem_name": "Yun–Sra–Jadbabaie SS–RS–GD inequalities",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.22620.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-21",
@@ -5234,7 +6181,11 @@
       "open_problem": true,
       "open_problem_name": "KTV conjecture (Kannan-Tetali-Vempala) for binary fixed-margin swap chain",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.22636.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-21",
@@ -5255,7 +6206,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture 3.4 of Zhi-Wei Sun",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.22548.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-06-28",
@@ -5277,7 +6232,11 @@
       "open_problem": true,
       "open_problem_name": "Worst-case last-iterate convergence of randomized Kaczmarz",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29593.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-06-29",
@@ -5299,7 +6258,11 @@
       "open_problem": true,
       "open_problem_name": "FGG conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2606.29687.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-01",
@@ -5320,7 +6283,11 @@
       "open_problem": true,
       "open_problem_name": "Jin-Rubinstein Problem 1.2",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.00708.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-02",
@@ -5341,7 +6308,11 @@
       "open_problem": true,
       "open_problem_name": "Homeomorphism of Hilbertian balls and their relatives",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.01924.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-03",
@@ -5362,7 +6333,11 @@
       "open_problem": true,
       "open_problem_name": "Signed BAR uniqueness conjecture (Dai-Dieker open problem)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.03639.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-06",
@@ -5383,7 +6358,11 @@
       "open_problem": true,
       "open_problem_name": "Moraga's conjecture on odd-dimensional rank bound for abelian p-group actions",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.04891.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-07",
@@ -5404,7 +6383,11 @@
       "open_problem": true,
       "open_problem_name": "Conjecture by Calderbank–Daubechies–Freeman–Freeman on stable phase retrieval for independent random variables",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.06693.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-09",
@@ -5426,7 +6409,11 @@
       "open_problem": true,
       "open_problem_name": "Erdős–Szemerédi sum-product conjecture over R",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.20525.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-13",
@@ -5446,7 +6433,11 @@
       "open_problem": true,
       "open_problem_name": "FDR control for correlated two-sided Gaussian tests",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.12208.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-13",
@@ -5467,7 +6458,11 @@
       "open_problem": true,
       "open_problem_name": "Joint q-moment tower beyond two dual particles",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.11376.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-15",
@@ -5489,7 +6484,11 @@
       "open_problem": true,
       "open_problem_name": "Online Spencer conjecture (Conjecture 1 of [8])",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.14238.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -5509,7 +6508,11 @@
       "open_problem": true,
       "open_problem_name": "Batyrev's conjecture on non-negativity of stringy Hodge numbers",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.19184.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -5529,7 +6532,11 @@
       "open_problem": true,
       "open_problem_name": "Deré's conjecture (Conjecture 1.1)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.19513.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-21",
@@ -5549,7 +6556,11 @@
       "open_problem": true,
       "open_problem_name": "Balabdaoui and Wellner's conjecture on strong log-concavity of Chernoff's density",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.18619.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-23",
@@ -5570,7 +6581,11 @@
       "open_problem": true,
       "open_problem_name": "Stanley's conjecture on Schur positivity of claw-free graphs",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.21508.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-25",
@@ -5592,7 +6607,11 @@
       "open_problem": true,
       "open_problem_name": "Variance conjecture (thin-shell inequality)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23307.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-26",
@@ -5613,7 +6632,11 @@
       "open_problem": true,
       "open_problem_name": "Monical-Tokcan-Yong Conjecture 2.25",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23828.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-27",
@@ -5633,7 +6656,11 @@
       "open_problem": true,
       "open_problem_name": "Feige's conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.24528.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-27",
@@ -5655,7 +6682,11 @@
       "open_problem": true,
       "open_problem_name": "Bellman's lost-in-a-forest problem",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.24483.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-27",
@@ -5676,7 +6707,11 @@
       "open_problem": true,
       "open_problem_name": "Feige's conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.23980.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": true,
+      "public_track": "both"
     },
     {
       "date": "2026-07-29",
@@ -5696,7 +6731,11 @@
       "open_problem": true,
       "open_problem_name": "Question of Ciliberto, Miranda, and Roé on the number of common flex lines in a general pencil of cubics",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.26396.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-07-29",
@@ -5717,7 +6756,11 @@
       "open_problem": true,
       "open_problem_name": "Lukic conjecture",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2607.26419.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-01",
@@ -5738,7 +6781,11 @@
       "open_problem": true,
       "open_problem_name": "Ehrhart positivity of Schubitopes",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.00377.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-02",
@@ -5760,7 +6807,11 @@
       "open_problem": true,
       "open_problem_name": "Ehrhart's volume conjecture (equality case)",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.01040.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -5782,7 +6833,11 @@
       "open_problem": true,
       "open_problem_name": "Connes' rigidity conjecture for ICC property (T) groups",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02327.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -5803,7 +6858,11 @@
       "open_problem": false,
       "open_problem_name": "Superexponential growth of multicolor Ramsey numbers for odd cycles",
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.02537.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     },
     {
       "date": "2026-08-03",
@@ -5825,9 +6884,34 @@
       "open_problem": false,
       "open_problem_name": null,
       "milestone_candidate": true,
-      "highlight": true
+      "highlight": true,
+      "pdf_url": "https://arxiv.org/pdf/2608.01673.pdf",
+      "is_core_contribution": true,
+      "is_rigorous_process": false,
+      "public_track": "core"
     }
   ],
+  "dual": {
+    "core_n": 128,
+    "rigorous_n": 115,
+    "strict_n": 121,
+    "yearly_core": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 30,
+      "2026": 96
+    },
+    "yearly_rigorous": {
+      "2023": 4,
+      "2024": 3,
+      "2025": 29,
+      "2026": 79
+    },
+    "labels": {
+      "core": "Core contribution — AI material to a real math claim/result",
+      "rigorous": "Rigorous process — AI in formalization / verification / strict proof steps"
+    }
+  },
   "contribution": {
     "by_tier": {
       "C4": 59,
@@ -6076,9 +7160,16 @@
       "strict_per_10k_yoy": 381.9976703552708
     }
   },
+  "link_report": {
+    "paper_events_with_abs": 63,
+    "unique_arxiv_ids": 62,
+    "canon_with_url": 9,
+    "canon_total": 9,
+    "note": "All paper abs links normalized to https://arxiv.org/abs/{id}. Verified offline before release."
+  },
   "notes": {
-    "wide": "C2+ ecosystem (assistive + material)",
-    "strict": "C3+ material math impact claims",
+    "core": "Core contribution (≈ C3/C4 material claims)",
+    "rigorous": "Rigorous process (formalization / machine-checked / verification)",
     "denominator": "arXiv cat:math* calendar-year totals via API"
   }
 }

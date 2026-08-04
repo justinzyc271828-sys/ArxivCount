@@ -1,6 +1,6 @@
 # AI × Mathematics Timeline (ArxivCount)
 
-Generated: `2026-08-04T14:19:39+00:00`
+Generated: `2026-08-04T14:28:20+00:00`
 
 Canon milestones + graded papers (C3/C4 and milestone candidates).
 

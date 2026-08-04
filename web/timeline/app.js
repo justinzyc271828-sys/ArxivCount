@@ -1,4 +1,4 @@
-/* Clean hero timeline + isolated data zone (English UI) */
+/* Clean hero timeline + dual tracks (English UI) */
 
 (function () {
   const data = window.ARXIVCOUNT_DATA;
@@ -31,10 +31,9 @@
   };
 
   function iconFor(e) {
-    if (e.type === "canon_milestone") {
-      return ICONS[e.kind] || ICONS.system;
-    }
-    if (e.contribution_tier === "C4" || e.open_problem) return ICONS.result;
+    if (e.type === "canon_milestone") return ICONS[e.kind] || ICONS.system;
+    if (e.is_core_contribution || e.contribution_tier === "C4" || e.open_problem) return ICONS.result;
+    if (e.is_rigorous_process) return ICONS.system;
     return ICONS.paper;
   }
 
@@ -61,6 +60,15 @@
     return e.contribution_tier || "Paper";
   }
 
+  function trackLabel(e) {
+    const t = e.public_track;
+    if (t === "both") return { text: "Core + rigorous", cls: "both" };
+    if (t === "core" || e.is_core_contribution) return { text: "Core contribution", cls: "core" };
+    if (t === "rigorous" || e.is_rigorous_process) return { text: "Rigorous process", cls: "rigorous" };
+    if (e.type === "canon_milestone") return { text: "Canon milestone", cls: "" };
+    return { text: "Other", cls: "" };
+  }
+
   function renderFocus() {
     const e = nav[idx] || {};
     const card = $("focusCard");
@@ -70,6 +78,10 @@
 
     $("focusIcon").innerHTML = iconFor(e);
     $("focusKind").textContent = kindLabel(e);
+    const tr = trackLabel(e);
+    const trackEl = $("focusTrack");
+    trackEl.textContent = tr.text;
+    trackEl.className = "chip chip-track " + (tr.cls || "");
     $("focusDate").textContent = fmtDate(e.date);
     $("focusTitle").textContent = e.label || e.title || e.id || "—";
     $("focusNote").textContent =
@@ -77,10 +89,9 @@
 
     const tags = [];
     if (e.type === "canon_milestone") tags.push(["", "canon"]);
-    if (e.contribution_tier === "C4") tags.push(["hot", "C4 decisive"]);
-    if (e.contribution_tier === "C3") tags.push(["ok", "C3 material"]);
+    if (e.is_core_contribution) tags.push(["hot", "core contribution"]);
+    if (e.is_rigorous_process) tags.push(["ok", "rigorous process"]);
     if (e.open_problem) tags.push(["hot", "open problem"]);
-    if (e.phase) tags.push(["", e.phase]);
     if (Array.isArray(e.subfields)) {
       e.subfields.slice(0, 2).forEach((s) => tags.push(["", s]));
     }
@@ -89,13 +100,20 @@
       .join("");
 
     const link = $("focusLink");
+    const pdf = $("focusPdf");
     if (e.url) {
       link.href = e.url;
       link.style.visibility = "visible";
-      link.textContent = e.arxiv_id ? `arXiv ${e.arxiv_id}` : "Open source";
+      link.textContent = e.arxiv_id ? `Open paper · ${e.arxiv_id}` : "Open source";
     } else {
       link.removeAttribute("href");
       link.style.visibility = "hidden";
+    }
+    if (e.pdf_url || e.arxiv_id) {
+      pdf.href = e.pdf_url || `https://arxiv.org/pdf/${e.arxiv_id}.pdf`;
+      pdf.style.display = "inline-flex";
+    } else {
+      pdf.style.display = "none";
     }
 
     $("progressPill").textContent = `${idx + 1} / ${nav.length}`;
@@ -117,7 +135,7 @@
       .map((e, i) => {
         const cls = ["tick"];
         if (e.type === "canon_milestone") cls.push("canon");
-        if (e.contribution_tier === "C4") cls.push("c4");
+        if (e.is_core_contribution || e.contribution_tier === "C4") cls.push("c4");
         if (i === idx) cls.push("active");
         const tip = (e.label || e.id || "").toString().replace(/"/g, "&quot;");
         return `<button type="button" class="${cls.join(" ")}" data-i="${i}" aria-label="${tip}">
@@ -134,18 +152,19 @@
   }
 
   function renderMetrics() {
+    const d = data.dual || {};
     const c = data.contribution || {};
     const p = data.penetration || {};
     const latest = p.latest || {};
     const items = [
-      { k: "Wide C2+", v: c.wide_n ?? "—", h: "ecosystem (incl. assistive)" },
-      { k: "Strict C3+", v: c.strict_n ?? "—", h: "material impact claims" },
+      { k: "Core contribution", v: d.core_n ?? c.strict_n ?? "—", h: "material math claims" },
+      { k: "Rigorous process", v: d.rigorous_n ?? "—", h: "formal / verification steps" },
       {
-        k: "Strict / 10k",
+        k: "Core / 10k math",
         v: latest.strict_per_10k != null ? Number(latest.strict_per_10k).toFixed(1) : "—",
-        h: latest.year ? `${latest.year} math.*` : "run denominator",
+        h: latest.year ? `${latest.year} · partial if 2026` : "denominator",
       },
-      { k: "Timeline events", v: nav.length, h: "browse with ← →" },
+      { k: "Timeline events", v: nav.length, h: "← → to browse" },
     ];
     $("metricRow").innerHTML = items
       .map(
@@ -156,31 +175,26 @@
   }
 
   function renderCharts() {
+    const d = data.dual || {};
     const c = data.contribution || {};
-    const years = Array.from(
-      new Set([
-        ...Object.keys(c.yearly_wide || {}),
-        ...Object.keys(c.yearly_strict || {}),
-      ])
-    ).sort();
+    const coreY = d.yearly_core || c.yearly_strict || {};
+    const rigY = d.yearly_rigorous || {};
+    const years = Array.from(new Set([...Object.keys(coreY), ...Object.keys(rigY)])).sort();
 
     const box = $("chartCounts");
     if (!years.length) {
-      box.innerHTML = `<p class="legend">No contribution yearly data yet.</p>`;
+      box.innerHTML = `<p class="legend">No yearly dual-track data yet.</p>`;
     } else {
       const max = Math.max(
         ...years.map((y) =>
-          Math.max(
-            Number((c.yearly_wide || {})[y] || 0),
-            Number((c.yearly_strict || {})[y] || 0)
-          )
+          Math.max(Number(coreY[y] || 0), Number(rigY[y] || 0))
         ),
         1
       );
       box.innerHTML = years
         .map((y) => {
-          const w = Number((c.yearly_wide || {})[y] || 0);
-          const s = Number((c.yearly_strict || {})[y] || 0);
+          const w = Number(coreY[y] || 0);
+          const s = Number(rigY[y] || 0);
           const ww = Math.max(w ? 4 : 0, Math.round((w / max) * 100));
           const sw = Math.max(s ? 4 : 0, Math.round((s / max) * 100));
           return `
@@ -211,30 +225,31 @@
         })
         .join("");
       $("penFoot").textContent =
-        "Per 10k = strict / math_total × 10000. 2026 is a partial year. Disclosed-proxy lower bound.";
+        "Per 10k uses the material/core set over yearly math.* totals. 2026 is partial-year. Disclosed-proxy lower bound.";
     }
   }
 
   function renderPhases() {
     const phases = data.phases || [];
     $("phaseGrid").innerHTML = phases
-      .map((ph) => {
-        return `<div class="phase-item">
+      .map(
+        (ph) => `<div class="phase-item">
           <div>
             <strong>${ph.label || ph.id}</strong><br/>
             <span>${ph.start} → ${ph.end}</span>
           </div>
-          <div class="n">${ph.strict_like ?? 0} strict</div>
-        </div>`;
-      })
+          <div class="n">${ph.strict_like ?? 0} core-like</div>
+        </div>`
+      )
       .join("");
   }
 
   function renderFoot() {
     const proj = data.project || {};
+    const lr = data.link_report || {};
     const bits = [];
     if (proj.github) bits.push(`<a href="${proj.github}" target="_blank" rel="noopener">GitHub</a>`);
-    if (proj.website) bits.push(`<a href="${proj.website}" target="_blank" rel="noopener">Website</a>`);
+    bits.push(`Papers with abs links: ${lr.paper_events_with_abs ?? "—"}`);
     bits.push(`Generated ${(data.generated_at || "").slice(0, 19)}`);
     $("dataFoot").innerHTML = bits.join(" · ");
   }

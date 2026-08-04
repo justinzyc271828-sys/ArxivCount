@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <!-- ========== ABOVE THE FOLD: story only ========== -->
   <main class="hero" id="hero">
     <header class="hero-bar">
       <div class="brand">
@@ -23,6 +22,11 @@
       </div>
     </header>
 
+    <p class="dual-banner" id="dualBanner">
+      Two tracks: <strong>Core contribution</strong> (real math claims) ·
+      <strong>Rigorous process</strong> (formal / verification steps)
+    </p>
+
     <div class="stage">
       <button type="button" class="nav-fab prev" id="btnPrev" aria-label="Previous">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
@@ -32,13 +36,15 @@
         <div class="focus-icon-wrap" id="focusIcon" aria-hidden="true"></div>
         <div class="focus-meta">
           <span class="chip chip-kind" id="focusKind">—</span>
+          <span class="chip chip-track" id="focusTrack">—</span>
           <span class="chip chip-date" id="focusDate">—</span>
         </div>
         <h1 class="focus-title" id="focusTitle">…</h1>
         <p class="focus-note" id="focusNote"></p>
         <div class="focus-tags" id="focusTags"></div>
         <div class="focus-cta">
-          <a class="btn-primary" id="focusLink" href="#" target="_blank" rel="noopener">Open source</a>
+          <a class="btn-primary" id="focusLink" href="#" target="_blank" rel="noopener">Open paper</a>
+          <a class="btn-secondary" id="focusPdf" href="#" target="_blank" rel="noopener" style="display:none">PDF</a>
           <button type="button" class="btn-ghost" id="btnHintKeys">← → to browse</button>
         </div>
       </article>
@@ -58,14 +64,15 @@
     </a>
   </main>
 
-  <!-- ========== BELOW THE FOLD: data only ========== -->
   <section class="data-zone" id="data">
     <div class="data-inner">
       <header class="data-head">
         <h2>Data panel</h2>
         <p>
-          Kept separate from the story view above. Numbers are a seed-query proxy on arXiv
-          <code>math.*</code> with contribution tiers and a math-total denominator — not a full census of the field.
+          Isolated from the story view. We grade arXiv <code>math.*</code> proxies into two public tracks:
+          <strong>Core contribution</strong> (material math claims) and
+          <strong>Rigorous process</strong> (formalization / verification steps).
+          Not a full census of mathematics.
         </p>
       </header>
 
@@ -75,18 +82,18 @@
         <div class="panel">
           <div class="panel-title">
             <span class="dot wide"></span>
-            Wide / Strict yearly counts
+            Core vs rigorous · yearly counts
           </div>
           <div id="chartCounts" class="chart-area"></div>
-          <p class="legend"><span class="sw wide"></span> Wide (C2+) &nbsp; <span class="sw strict"></span> Strict (C3+)</p>
+          <p class="legend"><span class="sw wide"></span> Core &nbsp; <span class="sw strict"></span> Rigorous</p>
         </div>
         <div class="panel">
           <div class="panel-title">
             <span class="dot strict"></span>
-            Penetration · per 10k math.* papers
+            Core penetration · per 10k math.* papers
           </div>
           <div id="chartPen" class="chart-area"></div>
-          <p class="legend" id="penFoot">Denominator: arXiv API <code>cat:math*</code></p>
+          <p class="legend" id="penFoot">Denominator: arXiv API <code>cat:math*</code> (strict/core material set)</p>
         </div>
       </div>
 
